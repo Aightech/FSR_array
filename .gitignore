@@ -2,7 +2,9 @@
 !.gitignore
 !/bin
 !/bin/*
-!/src
+!/bin
+!/script/*
+!/script
 !/src/*
 !/include
 !/include/*
