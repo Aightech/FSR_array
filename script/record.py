@@ -3,7 +3,7 @@ import serial
 import sys
 from scipy.io import savemat
 import keyboard
-
+import time 
 
 #connect to the arduino
 if len(sys.argv) < 2:
@@ -14,29 +14,32 @@ if len(sys.argv) < 2:
     exit()
 
 #connect to the arduino
-arduino = serial.Serial(sys.argv[1], 500000, timeout=1)
+arduino = serial.Serial(sys.argv[1], 500000, timeout=3)
+time.sleep(1)
 
 d=b'\x00'
-while( int.from_bytes(d,"big") != 0xaa):
-    d = arduino.read()
-    print(int.from_bytes(d,"big"))
-
-arduino.write(b'\xbb')
 print("Press 'a' to quit ")
 
-
-arr = np.zeros(16*16)
+n=32
+arr = np.zeros(n*n)
 data = np.array(arr)
+dt = [0, 0]
 while(True):
     if keyboard.is_pressed('a'):
         break
-    arduino.write(b'\xbb')
+    arduino.write(bytes([n]))
     #Send position to the arduino and print in the terminal
-    for i in range(256):
+    prev_dt=dt[0]
+    for i in range(2):
+        d = arduino.read(4)
+        dt[i] = int.from_bytes(d, "little")
+    print(str(dt[0]-prev_dt)+ " " + str(dt[1]-dt[0]))
+    
+    for i in range(n*n):
         d = arduino.read(2)
         arr[i] = int.from_bytes(d, "little")
-    data = np.vstack ((data, arr))
-        #print(d)
+    #data = np.vstack ((data, arr))
+    #print(d)
 
 dat = {'data':data}
 savemat('data.mat', dat)
