@@ -23,6 +23,7 @@ print("Press 'a' to quit ")
 n=32
 arr = np.zeros(n*n)
 data = np.array(arr)
+time = np.array([0, 0])
 dt = [0, 0]
 while(True):
     if keyboard.is_pressed('a'):
@@ -33,13 +34,14 @@ while(True):
     for i in range(2):
         d = arduino.read(4)
         dt[i] = int.from_bytes(d, "little")
-    print(str(dt[0]-prev_dt)+ " " + str(dt[1]-dt[0]))
+    #print(str(dt[0]-prev_dt)+ " " + str(dt[1]-dt[0]))
     
     for i in range(n*n):
         d = arduino.read(2)
         arr[i] = int.from_bytes(d, "little")
-    #data = np.vstack ((data, arr))
+    data = np.vstack ((data, arr))
+    time = np.vstack((time, dt))
     #print(d)
 
-dat = {'data':data}
+dat = {'data':data, 'timestamp':time}
 savemat('data.mat', dat)
