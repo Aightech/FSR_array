@@ -6,11 +6,11 @@ import keyboard
 import time 
 
 #connect to the arduino
-if len(sys.argv) < 2:
+if len(sys.argv) < 3:
     print("Usage:")
-    print("\t" + sys.argv[0] + " arduino_port")
+    print("\t" + sys.argv[0] + " arduino_port n_array")
     print("Ex:")
-    print("\t" + sys.argv[0] + " COM5")
+    print("\t" + sys.argv[0] + " COM5 16")
     exit()
 
 #connect to the arduino
@@ -20,7 +20,7 @@ with serial.Serial(sys.argv[1], 500000, timeout=3) as arduino:
     d=b'\x00'
     print("Press 'a' to quit ")
     
-    n=32
+    n=sys.argv[2]
     arr = np.zeros(n*n)
     data = np.array(arr)
     time = np.array([0, 0])
