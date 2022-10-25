@@ -1,0 +1,24 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+ADC1,MAX11632EEGT,MAX11632EEGT,143.1328,-125.3928,0.0,top
+ADC2,MAX11632EEGT,MAX11632EEGT,178.8328,-125.5928,0.0,top
+C1,100n,C0603,149.1339,-126.7964,90.0,top
+C2,100n,C0603,185.7,-125.3,90.0,top
+J1,scanning_ref1,PinHeader_1x08_P2.54mm_Vertical,103.7328,-135.6928,180.0,top
+J2,scanning_ref2,PinHeader_1x08_P2.54mm_Vertical,103.7328,-115.3728,180.0,top
+J3,scanning_ref3,PinHeader_1x08_P2.54mm_Vertical,103.7328,-92.5128,180.0,top
+J4,scanning_ref4,PinHeader_1x08_P2.54mm_Vertical,103.7328,-72.1928,180.0,top
+J5,measuring_input1,PinHeader_1x08_P2.54mm_Vertical,113.9578,-145.9928,90.0,top
+J6,measuring_input2,PinHeader_1x08_P2.54mm_Vertical,134.3628,-145.9928,90.0,top
+J7,measuring_input3,PinHeader_1x08_P2.54mm_Vertical,156.9828,-145.9928,90.0,top
+J8,measuring_input4,PinHeader_1x08_P2.54mm_Vertical,177.3028,-145.9928,90.0,top
+J9,com_mux,PinHeader_1x08_P2.54mm_Vertical,114.8578,-95.9928,90.0,top
+J10,com_adc,PinHeader_1x09_P2.54mm_Vertical,156.8328,-110.5928,0.0,top
+J11,teensy_right,PinSocket_1x24_P2.54mm_Vertical,135.6128,-56.6928,90.0,top
+J12,teensy_left,PinSocket_1x24_P2.54mm_Vertical,135.6128,-71.9328,90.0,top
+J13,com_acc2,PinHeader_2x05_P1.27mm_Vertical,189.45,-107.625,90.0,top
+J14,com_acc1,PinHeader_2x05_P1.27mm_Vertical,189.45,-100.625,90.0,top
+J15,com_acc3,PinHeader_2x05_P1.27mm_Vertical,189.45,-114.625,90.0,top
+J16,com_acc4,PinHeader_2x05_P1.27mm_Vertical,189.45,-121.25,90.0,top
+J17,usb_B,usbB_stewart,119.27,-59.71,180.0,top
+MUX1,CD74HC4067SM,SSOP-24_5.3x8.2mm_P0.65mm,115.7328,-116.9928,90.0,top
+MUX2,CD74HC4067SM,SSOP-24_5.3x8.2mm_P0.65mm,115.7328,-73.9928,90.0,top

@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC
+KX134-1211,U1,KX134-1211,
+Conn_01x09_Male,J1,PinSocket_1x09_P1.27mm_Vertical,
+1u,C2,C_01005_0402Metric,
+100n,C1,C_01005_0402Metric,
+MountingHole,H2,MountingHole_2.2mm_M2,

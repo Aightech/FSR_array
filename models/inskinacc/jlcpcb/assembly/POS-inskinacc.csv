@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100n,C_01005_0402Metric,144.5107,-98.23,90.0,top
+C2,1u,C_01005_0402Metric,140.4607,-98.23,90.0,top
+J1,Conn_01x09_Male,PinSocket_1x09_P1.27mm_Vertical,140.675,-93.775,90.0,top
+U1,KX134-1211,KX134-1211,142.5007,-97.75,0.0,top
