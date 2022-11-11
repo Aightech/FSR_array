@@ -1,32 +1,37 @@
-device = serialport("/dev/ttyACM0",500000)
-pause(1)
-disp('Now receiving data...');
-vec = zeros(256, (1));
+%% Script to received data data from FSRray
+device = serialport("/dev/ttyACM0",500000);%connect to the arduino ( select the right path: COM1, COM2 ... on windows)
+pause(1)%wait a bit
 
-n=32;
+
+n=32;% size on the n*n array to measure
+
+dt=[0 0];%array conataining 2 timestamps: [when request received; when request sent] 
+vec = zeros(256, (1));%array containing the force values
+
+%To close the communication with arduino when closing the plot
 global running;
 running=1;
-
 figure('CloseRequestFcn',@my_closereq);
-while running
-    write(device,n,"uint8");
-    dt_prev=dt(1);
-    dt = read(device,2,"uint32");
-    fprintf('dt=%d \tdt2=%d \tfreq=%f\n',dt(1)-dt_prev,dt(2)-dt(1), 1000000./(dt(1)-dt_prev));
-    vec = read(device,n*n,"uint16");
 
-    % get data from the inl
-    % and display it
-    %fprintf('%.2f\t',vec);
-    surf(reshape(vec,n,n));
-    zlim([0,1000]);
+
+% While plotting window is open
+while running
+    write(device,n,"uint8");%send request with the size of the array to record
+    dt = read(device,2,"uint32");%get timestamps
+    vec = read(device,n*n,"uint16");%get forces array
+
+    array = reshape(vec,n,n); % reshape data
+
+    %plot the data
+    surf(array);
+    zlim([0,10000]);
     view([20 70])
     drawnow;
 
 end
 
+%closing everything when the plot windows is closed
 clear device;
-
 function my_closereq(src,event)
     global  running;
     running = 0;
