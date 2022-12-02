@@ -6,6 +6,7 @@
 !/script/*
 !/script
 !/src/*
+!/src
 !/include
 !/include/*
 !/lib
