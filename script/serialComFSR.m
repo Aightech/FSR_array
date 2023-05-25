@@ -3,7 +3,7 @@ device = serialport("/dev/ttyACM0",500000);%connect to the arduino ( select the 
 pause(1)%wait a bit
 
 
-n=32;% size on the n*n array to measure
+n=16;% size on the n*n array to measure
 
 dt=[0 0];%array conataining 2 timestamps: [when request received; when request sent] 
 vec = zeros(256, (1));%array containing the force values
@@ -20,7 +20,7 @@ while running
     dt = read(device,2,"uint32");%get timestamps
     vec = read(device,n*n,"uint16");%get forces array
 
-    array = reshape(vec,n,n); % reshape data
+    array = reshape(vec,n,n) % reshape data
 
     %plot the data
     surf(array);
