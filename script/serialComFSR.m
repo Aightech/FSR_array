@@ -20,12 +20,12 @@ while running
     dt = read(device,2,"uint32");%get timestamps
     vec = read(device,n*n,"uint16");%get forces array
 
-    array = reshape(vec,n,n) % reshape data
+    array = reshape(vec,n,n); % reshape data
 
     %plot the data
     surf(array);
     zlim([0,10000]);
-    view([20 70])
+    view([20 70]);
     drawnow;
 
 end
