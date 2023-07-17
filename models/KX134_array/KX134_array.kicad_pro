@@ -460,8 +460,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "KX134_array.step",
+      "vrml": "KX134_array.wrl"
     },
     "page_layout_descr_file": ""
   },

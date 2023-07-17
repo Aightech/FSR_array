@@ -1,20 +1,24 @@
 #include <iostream>
+#include <lsl_cpp.h>
+#include <serial_client.hpp>
 #include <stdio.h>
 #include <stdlib.h>
-#include <com_client.hpp>
-#include <lsl_cpp.h>
+#include <string.h>
+#include <tcp_client.hpp>
 #include <unistd.h>
+
+#include <chrono>
 
 int
 main(int argc, char **argv)
 {
 
     std::string path = "/dev/ttyACM0";
-    Communication::Client device(true);
+    Communication::Serial device(2);
     try
     {
         std::cout << "Com Interface:" << std::endl;
-        device.open_connection(Communication::Client::SERIAL, path.c_str());
+        device.open_connection(path.c_str(), 115200);
     }
     catch(std::string msg)
     {
@@ -22,38 +26,54 @@ main(int argc, char **argv)
         return 0;
     }
 
+    // std::string path = "192.168.127.254";
+    // Communication::TCP device(2);
+    // try
+    // {
+    //     device.open_connection(path.c_str(), 5000, 2);
+    // }
+    // catch(std::string msg)
+    // {
+    //     std::cout << "ERROR: " << msg << "\n";
+    //     return 0;
+    // }
+
     usleep(2000000);
 
-    int nb_channels = 16 * 16;
-    lsl::stream_info info_sample("FSR", "sample", nb_channels, 0,
-                                 lsl::cf_int16);
+    int n_width = 16;
+    int n_layer = 2;
+    char cmd = n_width + (n_layer - 1) * 0x80;
+    int nb_channel = n_width * n_width * n_layer;
+    uint16_t data[nb_channel];
+    uint32_t timestamps[2];
+
+    lsl::stream_info info_sample("FSR", "sample", nb_channel, 0, lsl::cf_int16);
     lsl::stream_outlet outlet_sample(info_sample);
-    std::vector<int16_t> sample(nb_channels);
+    std::vector<int16_t> sample(nb_channel);
     std::cout << "[INFOS] Now sending data... " << std::endl;
 
-    int dj = 10;
-    double v = 0;
-
-    uint8_t buff[1000] = {};
+    int n = 0;
     for(int j = 0;; j++)
     {
-        char n_ch = 16;
-        int a = device.writeS(&n_ch, 1);
-        //std::cout << a << std::flush;
-	uint32_t timestamps[2];
-        int n = device.readS((uint8_t *)&timestamps, 2*4, false);
-	//std::cout << "nb data read: " << n<< std::endl;
-	//std::cout << "timestamps[0]: " << timestamps[0] << " " << timestamps[1] << std::endl;
-	uint16_t data[256];
-        n = device.readS((uint8_t *)&data, 256*2, false);
-	//std::cout << "nb data read: " << n<< std::endl;
-	std::cout << "nb data read: " << data[0] << " " << data[1] << std::endl;
-	
-        for(int i = 0; i < 256; i++)
-        {
-            sample[i] = data[i];
-        }
-        outlet_sample.push_sample(sample);
+        //compute the time for each loop
+        auto start = std::chrono::high_resolution_clock::now();
+        n = device.writeS(&cmd, 1);
+        int32_t prev_t = timestamps[0];
+        n = device.readS((uint8_t *)&timestamps, 2 * 4, false);
+        std::cout << "timestamps: " << timestamps[1] - timestamps[0] << " " << timestamps[0] - prev_t
+                  << std::endl;
+
+        n = device.readS((uint8_t *)&data, nb_channel * 2, false);
+        //std::cout << "nb data read: " << n<< std::endl;
+        //std::cout << "nb data read: " << data[0] << " " << data[1] << std::endl;
+
+        // for(int i = 0; i < 256; i++) { sample[i] = data[i]; }
+        // outlet_sample.push_sample(sample);
+
+        auto stop = std::chrono::high_resolution_clock::now();
+        auto duration =
+            std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+        std::cout << "loop time: " << duration.count() << std::endl;
     }
 
     return 0;
