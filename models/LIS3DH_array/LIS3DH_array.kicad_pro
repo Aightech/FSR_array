@@ -84,16 +84,16 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -539,6 +539,34 @@
     [
       "0a250753-2f1b-4db6-b0fd-bb786fbfaec2",
       "LIS3DH_unit9"
+    ],
+    [
+      "4b16ea52-b402-4508-92b9-7a07f8adf659",
+      "LIS3DH_unit10"
+    ],
+    [
+      "216bdaa4-b21c-4fea-a134-fc9e53e2c5be",
+      "LIS3DH_unit11"
+    ],
+    [
+      "4efa5324-09d0-404b-8518-dd309e1a12de",
+      "LIS3DH_unit12"
+    ],
+    [
+      "99abc178-3461-4064-878a-d14b9aa8e7b1",
+      "LIS3DH_unit13"
+    ],
+    [
+      "4196b40b-41a0-4a32-a0e5-7d2da09f4f78",
+      "LIS3DH_unit14"
+    ],
+    [
+      "ef86a211-0e67-48a9-a57b-8c0dad3edc25",
+      "LIS3DH_unit15"
+    ],
+    [
+      "6ff9cbdb-1f0b-4509-9e89-28e95e7baab2",
+      "LIS3DH_unit16"
     ]
   ],
   "text_variables": {}

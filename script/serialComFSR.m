@@ -35,17 +35,25 @@ while running
         vec = read(device,n*n,"uint16");%get forces array
         array = reshape(vec,n,n); % reshape data
     end
+    %cmd = read(device,1,"uint8");
+    %cmd 
+
+
+    %array(2,:)=array(3,:);
+    %array(18,:)=array(17,:);
 
     %plot the data
-    maxz=800;
-    hSurface=surf(300+array(1:16,:));
-    hold on;
-    surf(array(17:end,:));
-    hold off;
-    caxis([0,maxz]);
-    colorbar;
-    zlim([0,maxz]);
-    view([135 20]);
+%     maxz=800;
+% %    hSurface=surf(array);
+%     hSurface=surf(300+array(1:16,:));
+%     hold on;
+%     surf(array(17:end,:));
+%     hold off;
+%     caxis([0,maxz]);
+%     colorbar;
+%     zlim([0,maxz]);
+%     view([135 20]);
+plot(dt(1),array(8,8));
 
 %     k=8;
 %     plot(x,array(k,1:16));

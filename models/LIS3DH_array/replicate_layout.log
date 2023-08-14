@@ -1,0 +1,224 @@
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'linux'
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0]'
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.6-7.0.6~ubuntu22.04.1
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x7fd913c1a170>
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with U1 as a reference
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'U1'
+Located on: ['LIS3DH_unit1']
+With filenames: ['LIS3DH_unit1.kicad_sch']
+With sheet_id:['LIS3DH_unit1']
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('U7', ['LIS3DH_unit7']), ('U14', ['LIS3DH_unit14']), ('U13', ['LIS3DH_unit13']), ('U8', ['LIS3DH_unit8']), ('U16', ['LIS3DH_unit16']), ('U11', ['LIS3DH_unit11']), ('U3', ['LIS3DH_unit3']), ('U5', ['LIS3DH_unit5']), ('U6', ['LIS3DH_unit6']), ('U15', ['LIS3DH_unit15']), ('U4', ['LIS3DH_unit4']), ('U2', ['LIS3DH_unit2']), ('U12', ['LIS3DH_unit12']), ('U10', ['LIS3DH_unit10']), ('U9', ['LIS3DH_unit9']), ('U1', ['LIS3DH_unit1'])]
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'LIS3DH_unit1', file:'LIS3DH_unit1.kicad_sch'
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LIS3DH_unit10'], ['LIS3DH_unit11'], ['LIS3DH_unit12'], ['LIS3DH_unit13'], ['LIS3DH_unit14'], ['LIS3DH_unit15'], ['LIS3DH_unit16'], ['LIS3DH_unit2'], ['LIS3DH_unit3'], ['LIS3DH_unit4'], ['LIS3DH_unit5'], ['LIS3DH_unit6'], ['LIS3DH_unit7'], ['LIS3DH_unit8'], ['LIS3DH_unit9']]
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['LIS3DH_unit1']
+07-19 21:02:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-19 21:02:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(1466, 387)
+07-19 21:02:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1104, 387)
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'LIS3DH_unit1', file:'LIS3DH_unit1.kicad_sch'
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LIS3DH_unit10'], ['LIS3DH_unit11'], ['LIS3DH_unit12'], ['LIS3DH_unit13'], ['LIS3DH_unit14'], ['LIS3DH_unit15'], ['LIS3DH_unit16'], ['LIS3DH_unit2'], ['LIS3DH_unit3'], ['LIS3DH_unit4'], ['LIS3DH_unit5'], ['LIS3DH_unit6'], ['LIS3DH_unit7'], ['LIS3DH_unit8'], ['LIS3DH_unit9']]
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['LIS3DH_unit10'], ['LIS3DH_unit11'], ['LIS3DH_unit12'], ['LIS3DH_unit13'], ['LIS3DH_unit14'], ['LIS3DH_unit15'], ['LIS3DH_unit16'], ['LIS3DH_unit2'], ['LIS3DH_unit3'], ['LIS3DH_unit4'], ['LIS3DH_unit5'], ['LIS3DH_unit6'], ['LIS3DH_unit7'], ['LIS3DH_unit8'], ['LIS3DH_unit9']]
+on level: ['LIS3DH_unit1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
+07-19 21:02:11 root 340:updating GUI message: 'Preparing for replication'
+07-19 21:02:11 root 345:updating GUI with: 0
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+07-19 21:02:11 root 345:updating GUI with: 0
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+07-19 21:02:11 root 345:updating GUI with: 50
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+07-19 21:02:11 root 345:updating GUI with: 66
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 271:Removing tracks and zones, before footprint placement
+07-19 21:02:11 root 340:updating GUI message: 'Removing zones and tracks'
+07-19 21:02:11 root 345:updating GUI with: 0
+07-19 21:02:11 root 345:updating GUI with: 0
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:106975002, bottom:146800000, Left:94375000, Right:118024998
+07-19 21:02:11 root 345:updating GUI with: 6
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:106975002, bottom:130625001, Left:126975002, Right:166800000
+07-19 21:02:11 root 345:updating GUI with: 13
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:104374999, bottom:115624999, Left:141975002, Right:166800000
+07-19 21:02:11 root 345:updating GUI with: 20
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:119375001, bottom:130625001, Left:78200000, Right:103024998
+07-19 21:02:11 root 345:updating GUI with: 26
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:121975002, bottom:146800000, Left:109375001, Right:120625001
+07-19 21:02:11 root 345:updating GUI with: 33
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:121975002, bottom:146800000, Left:124375001, Right:135625001
+07-19 21:02:11 root 345:updating GUI with: 40
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:121975002, bottom:146800000, Left:139375001, Right:150625001
+07-19 21:02:11 root 345:updating GUI with: 46
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:58200000, bottom:83024998, Left:109375000, Right:120625000
+07-19 21:02:11 root 345:updating GUI with: 53
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:58200000, bottom:83024998, Left:124375000, Right:135625000
+07-19 21:02:11 root 345:updating GUI with: 60
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:74374999, bottom:85624999, Left:141975002, Right:166800000
+07-19 21:02:11 root 345:updating GUI with: 66
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:89375001, bottom:100625001, Left:78200000, Right:103024998
+07-19 21:02:11 root 345:updating GUI with: 73
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:74374999, bottom:98024998, Left:78200000, Right:118024998
+07-19 21:02:11 root 345:updating GUI with: 80
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:58200000, bottom:98024998, Left:126975002, Right:150625000
+07-19 21:02:11 root 345:updating GUI with: 86
+07-19 21:02:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:89374999, bottom:100624999, Left:141975002, Right:166800000
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:104375001, bottom:115625001, Left:78200000, Right:103024998
+07-19 21:02:12 root 340:updating GUI message: 'Replicating footprints'
+07-19 21:02:12 root 345:updating GUI with: 0
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit10']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit11']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit12']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit13']
+07-19 21:02:12 root 345:updating GUI with: 20
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit14']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit15']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit16']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit2']
+07-19 21:02:12 root 345:updating GUI with: 48
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit3']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit4']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit5']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit6']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit7']
+07-19 21:02:12 root 345:updating GUI with: 82
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit8']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LIS3DH_unit9']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 279:Removing tracks and zones, after footprint placement
+07-19 21:02:12 root 340:updating GUI message: 'Removing zones and tracks'
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:106975002, bottom:146800000, Left:94375000, Right:118024998
+07-19 21:02:12 root 345:updating GUI with: 6
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:106975002, bottom:130625001, Left:126975002, Right:166800000
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:104374999, bottom:115624999, Left:141975002, Right:166800000
+07-19 21:02:12 root 345:updating GUI with: 20
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:119375001, bottom:130625001, Left:78200000, Right:103024998
+07-19 21:02:12 root 345:updating GUI with: 26
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:121975002, bottom:146800000, Left:109375001, Right:120625001
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:121975002, bottom:146800000, Left:124375001, Right:135625001
+07-19 21:02:12 root 345:updating GUI with: 40
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:121975002, bottom:146800000, Left:139375001, Right:150625001
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:58200000, bottom:83024998, Left:109375000, Right:120625000
+07-19 21:02:12 root 345:updating GUI with: 53
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:58200000, bottom:83024998, Left:124375000, Right:135625000
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:74374999, bottom:85624999, Left:141975002, Right:166800000
+07-19 21:02:12 root 345:updating GUI with: 66
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:89375001, bottom:100625001, Left:78200000, Right:103024998
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:74374999, bottom:98024998, Left:78200000, Right:118024998
+07-19 21:02:12 root 345:updating GUI with: 80
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:58200000, bottom:98024998, Left:126975002, Right:150625000
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:89374999, bottom:100624999, Left:141975002, Right:166800000
+07-19 21:02:12 root 345:updating GUI with: 93
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:104375001, bottom:115625001, Left:78200000, Right:103024998
+07-19 21:02:12 root 340:updating GUI message: 'Replicating tracks'
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit10']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit10'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit10/ADC2'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit10/INT1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit10/INT2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U10-NC-Pad2)'), ('', ''), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit10/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit10/ADC3'), ('SDO', 'SDO'), ('GND', 'GND'), ('VDD', 'VDD'), ('nCS_1', 'nCS_10'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U10-NC-Pad3)')]
+07-19 21:02:12 root 345:updating GUI with: 3
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit11']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit11'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit11/ADC3'), ('nCS_1', 'nCS_11'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit11/INT1'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U11-NC-Pad3)'), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit11/ADC1'), ('SDO', 'SDO'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit11/INT2'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit11/ADC2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U11-NC-Pad2)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit12']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit12'] :[('Sclk', 'Sclk'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit12/INT1'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U12-NC-Pad3)'), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit12/ADC2'), ('SDO', 'SDO'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit12/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit12/ADC3'), ('GND', 'GND'), ('VDD', 'VDD'), ('nCS_1', 'nCS_12'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U12-NC-Pad2)'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit12/INT2')]
+07-19 21:02:12 root 345:updating GUI with: 20
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit13']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit13'] :[('/LIS3DH_unit1/ADC3', '/LIS3DH_unit13/ADC3'), ('Sclk', 'Sclk'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U13-NC-Pad2)'), ('', ''), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit13/ADC1'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit13/INT1'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit13/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U13-NC-Pad3)'), ('SDO', 'SDO'), ('nCS_1', 'nCS_13'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit13/INT2'), ('VDD', 'VDD'), ('GND', 'GND')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit14']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit14'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit14/ADC1'), ('', ''), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit14/ADC2'), ('SDO', 'SDO'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U14-NC-Pad2)'), ('GND', 'GND'), ('VDD', 'VDD'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U14-NC-Pad3)'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit14/ADC3'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit14/INT1'), ('nCS_1', 'nCS_14'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit14/INT2')]
+07-19 21:02:12 root 345:updating GUI with: 30
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit15']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit15'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit15/ADC3'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit15/INT1'), ('SDI', 'SDI'), ('nCS_1', 'nCS_15'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit15/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U15-NC-Pad3)'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U15-NC-Pad2)'), ('SDO', 'SDO'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit15/ADC1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit15/INT2')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit16']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit16'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit16/ADC3'), ('nCS_1', 'nCS_16'), ('', ''), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U16-NC-Pad3)'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit16/ADC1'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit16/INT2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U16-NC-Pad2)'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit16/INT1'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit16/ADC2')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit2']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit2'] :[('Sclk', 'Sclk'), ('', ''), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U2-NC-Pad3)'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U2-NC-Pad2)'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit2/INT1'), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit2/ADC2'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit2/INT2'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit2/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit2/ADC3'), ('nCS_1', 'nCS_2')]
+07-19 21:02:12 root 345:updating GUI with: 48
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit3']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit3'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit3/ADC2'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit3/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit3/ADC3'), ('', ''), ('SDI', 'SDI'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit3/INT2'), ('nCS_1', 'nCS_3'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit3/INT1'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U3-NC-Pad2)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U3-NC-Pad3)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit4']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit4'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit4/ADC3'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit4/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U4-NC-Pad3)'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit4/INT1'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit4/ADC1'), ('SDI', 'SDI'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit4/INT2'), ('GND', 'GND'), ('VDD', 'VDD'), ('nCS_1', 'nCS_4'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U4-NC-Pad2)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit5']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit5'] :[('unconnected-(U1-NC-Pad2)', 'unconnected-(U5-NC-Pad2)'), ('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit5/ADC2'), ('', ''), ('SDI', 'SDI'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U5-NC-Pad3)'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit5/INT1'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit5/ADC3'), ('GND', 'GND'), ('nCS_1', 'nCS_5'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit5/ADC1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit5/INT2')]
+07-19 21:02:12 root 345:updating GUI with: 69
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit6']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit6'] :[('/LIS3DH_unit1/ADC3', '/LIS3DH_unit6/ADC3'), ('Sclk', 'Sclk'), ('nCS_1', 'nCS_6'), ('', ''), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit6/INT2'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit6/INT1'), ('SDO', 'SDO'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit6/ADC1'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit6/ADC2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U6-NC-Pad2)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U6-NC-Pad3)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit7']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit7'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit7/ADC3'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit7/ADC1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit7/INT2'), ('', ''), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U7-NC-Pad2)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U7-NC-Pad3)'), ('SDI', 'SDI'), ('nCS_1', 'nCS_7'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit7/INT1'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit7/ADC2'), ('GND', 'GND')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit8']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit8'] :[('Sclk', 'Sclk'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U8-NC-Pad2)'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit8/ADC3'), ('', ''), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit8/ADC2'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit8/INT1'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit8/INT2'), ('VDD', 'VDD'), ('GND', 'GND'), ('nCS_1', 'nCS_8'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U8-NC-Pad3)'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit8/ADC1')]
+07-19 21:02:12 root 345:updating GUI with: 90
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['LIS3DH_unit9']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit9'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit9/ADC1'), ('nCS_1', 'nCS_9'), ('', ''), ('SDI', 'SDI'), ('SDO', 'SDO'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U9-NC-Pad2)'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit9/INT1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit9/ADC3'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit9/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U9-NC-Pad3)'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit9/INT2')]
+07-19 21:02:12 root 340:updating GUI message: 'Replicating zones'
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit10']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit10'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit10/ADC2'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit10/INT1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit10/INT2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U10-NC-Pad2)'), ('', ''), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit10/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit10/ADC3'), ('SDO', 'SDO'), ('GND', 'GND'), ('VDD', 'VDD'), ('nCS_1', 'nCS_10'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U10-NC-Pad3)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit11']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit11'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit11/ADC3'), ('nCS_1', 'nCS_11'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit11/INT1'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U11-NC-Pad3)'), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit11/ADC1'), ('SDO', 'SDO'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit11/INT2'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit11/ADC2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U11-NC-Pad2)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit12']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit12'] :[('Sclk', 'Sclk'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit12/INT1'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U12-NC-Pad3)'), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit12/ADC2'), ('SDO', 'SDO'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit12/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit12/ADC3'), ('GND', 'GND'), ('VDD', 'VDD'), ('nCS_1', 'nCS_12'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U12-NC-Pad2)'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit12/INT2')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit13']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit13'] :[('/LIS3DH_unit1/ADC3', '/LIS3DH_unit13/ADC3'), ('Sclk', 'Sclk'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U13-NC-Pad2)'), ('', ''), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit13/ADC1'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit13/INT1'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit13/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U13-NC-Pad3)'), ('SDO', 'SDO'), ('nCS_1', 'nCS_13'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit13/INT2'), ('VDD', 'VDD'), ('GND', 'GND')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit14']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit14'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit14/ADC1'), ('', ''), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit14/ADC2'), ('SDO', 'SDO'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U14-NC-Pad2)'), ('GND', 'GND'), ('VDD', 'VDD'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U14-NC-Pad3)'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit14/ADC3'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit14/INT1'), ('nCS_1', 'nCS_14'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit14/INT2')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit15']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit15'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit15/ADC3'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit15/INT1'), ('SDI', 'SDI'), ('nCS_1', 'nCS_15'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit15/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U15-NC-Pad3)'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U15-NC-Pad2)'), ('SDO', 'SDO'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit15/ADC1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit15/INT2')]
+07-19 21:02:12 root 345:updating GUI with: 40
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit16']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit16'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit16/ADC3'), ('nCS_1', 'nCS_16'), ('', ''), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U16-NC-Pad3)'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit16/ADC1'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit16/INT2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U16-NC-Pad2)'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit16/INT1'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit16/ADC2')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit2']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit2'] :[('Sclk', 'Sclk'), ('', ''), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U2-NC-Pad3)'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U2-NC-Pad2)'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit2/INT1'), ('SDI', 'SDI'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit2/ADC2'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit2/INT2'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit2/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit2/ADC3'), ('nCS_1', 'nCS_2')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit3']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit3'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit3/ADC2'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit3/ADC1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit3/ADC3'), ('', ''), ('SDI', 'SDI'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit3/INT2'), ('nCS_1', 'nCS_3'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit3/INT1'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U3-NC-Pad2)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U3-NC-Pad3)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit4']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit4'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit4/ADC3'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit4/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U4-NC-Pad3)'), ('', ''), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit4/INT1'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit4/ADC1'), ('SDI', 'SDI'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit4/INT2'), ('GND', 'GND'), ('VDD', 'VDD'), ('nCS_1', 'nCS_4'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U4-NC-Pad2)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit5']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit5'] :[('unconnected-(U1-NC-Pad2)', 'unconnected-(U5-NC-Pad2)'), ('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit5/ADC2'), ('', ''), ('SDI', 'SDI'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U5-NC-Pad3)'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit5/INT1'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit5/ADC3'), ('GND', 'GND'), ('nCS_1', 'nCS_5'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit5/ADC1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit5/INT2')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit6']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit6'] :[('/LIS3DH_unit1/ADC3', '/LIS3DH_unit6/ADC3'), ('Sclk', 'Sclk'), ('nCS_1', 'nCS_6'), ('', ''), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit6/INT2'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit6/INT1'), ('SDO', 'SDO'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit6/ADC1'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit6/ADC2'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U6-NC-Pad2)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U6-NC-Pad3)')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit7']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit7'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit7/ADC3'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit7/ADC1'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit7/INT2'), ('', ''), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U7-NC-Pad2)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U7-NC-Pad3)'), ('SDI', 'SDI'), ('nCS_1', 'nCS_7'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit7/INT1'), ('VDD', 'VDD'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit7/ADC2'), ('GND', 'GND')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit8']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit8'] :[('Sclk', 'Sclk'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U8-NC-Pad2)'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit8/ADC3'), ('', ''), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit8/ADC2'), ('SDI', 'SDI'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit8/INT1'), ('SDO', 'SDO'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit8/INT2'), ('VDD', 'VDD'), ('GND', 'GND'), ('nCS_1', 'nCS_8'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U8-NC-Pad3)'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit8/ADC1')]
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['LIS3DH_unit9']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['LIS3DH_unit9'] :[('Sclk', 'Sclk'), ('/LIS3DH_unit1/ADC1', '/LIS3DH_unit9/ADC1'), ('nCS_1', 'nCS_9'), ('', ''), ('SDI', 'SDI'), ('SDO', 'SDO'), ('unconnected-(U1-NC-Pad2)', 'unconnected-(U9-NC-Pad2)'), ('GND', 'GND'), ('VDD', 'VDD'), ('/LIS3DH_unit1/INT1', '/LIS3DH_unit9/INT1'), ('/LIS3DH_unit1/ADC3', '/LIS3DH_unit9/ADC3'), ('/LIS3DH_unit1/ADC2', '/LIS3DH_unit9/ADC2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U9-NC-Pad3)'), ('/LIS3DH_unit1/INT2', '/LIS3DH_unit9/INT2')]
+07-19 21:02:12 root 340:updating GUI message: 'Replicating text'
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+07-19 21:02:12 root 345:updating GUI with: 0
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit10']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit11']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit12']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit13']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit14']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit15']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit16']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit2']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit3']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit4']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit5']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit6']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit7']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit8']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['LIS3DH_unit9']
+07-19 21:02:12 root 340:updating GUI message: 'Replicating drawings'
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit10']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit11']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit12']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit13']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit14']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit15']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit16']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit2']
+07-19 21:02:12 root 345:updating GUI with: 47
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit3']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit4']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit5']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit6']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit7']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit8']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['LIS3DH_unit9']
+07-19 21:02:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

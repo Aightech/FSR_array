@@ -1,5 +1,8 @@
 #ifndef FSR_HPP
 #define FSR_HPP
+#include <SPI.h>
+
+// interface ADC MAXMAX11632EEG+
 
 class FSR {
   enum SCAN_MODE { SCAN_0_TO_N = 0,
@@ -9,7 +12,7 @@ class FSR {
   };
 
 
-  enum CLK_MODE { INT_CLK_CNVST = 0b00,
+  enum CLK_MODE { INT_CLK_CNVST = 0b00,  //the wake-up, acquisition, conversion, and shutdown sequences are initiated through CNVST and performed automatically using the internal oscillator.
                   EXT_CLK_CNVST = 0b01,
                   INT_CLK = 0b10,
                   SCLK = 0b11
@@ -44,6 +47,8 @@ class FSR {
 public:
   FSR(){};
   void begin() {
+    SPI.begin();
+    SPI.beginTransaction(SPISettings(10000000, MSBFIRST, SPI_MODE0));
     for (int i = 0; i < 2; i++) {
       pinMode(CS_PIN[i], OUTPUT);
       digitalWrite(CS_PIN[i], HIGH);
@@ -58,8 +63,10 @@ public:
       digitalWrite(ADD_PIN[i], LOW);
     }
 
-    conf_setup(0, INT_CLK, REF_MODE_2);
+    conf_setup(0, SCLK, REF_MODE_2);
+    conf_setup(1, SCLK, REF_MODE_2);
     conf_averaging(0, SCAN_8, AVG_OFF);
+    conf_averaging(1, SCAN_8, AVG_OFF);
   };
 
   void
@@ -99,6 +106,10 @@ public:
     digitalWrite(CS_PIN[id], LOW);
     SPI.transfer(0b01000000 | (CKSEL << 4) | (REFSEL << 2));
     digitalWrite(CS_PIN[id], HIGH);
+    if (CKSEL == SCLK)
+      m_fast_read_mode = true;
+    else
+      m_fast_read_mode = false;
   }
 
   void conf_averaging(int id, SCAN_NB SCAN, AVG_MODE AVGON, AVG_NB NAVG = AVG_4) {
@@ -113,18 +124,43 @@ public:
     digitalWrite(CS_PIN[id], HIGH);
   }
 
-  void read_value(int id, uint16_t *val, int n) {
-    conf_conversion(id, n - 1, SCAN_0_TO_N);
-    while (digitalRead(EOC_PIN[id]) == HIGH) {
-    };
-
+  void fast_read_value(int id, uint16_t *val, int n) {
+    //to use when the conversion is drive by Sclk
+    byte CHSEL = 0;
+    SCAN_MODE SCAN = NO_SCAN;  //no scan in fast read
     uint8_t *buff = (uint8_t *)val;
+
     digitalWrite(CS_PIN[id], LOW);
+    SPI.transfer(0b10000000 | (CHSEL << 3) | (SCAN << 1));
     for (int i = 0; i < 2 * n; i++) {
       *(buff + i + (1 - 2 * (i % 2))) = 0;
-      *(buff + i + (1 - 2 * (i % 2))) = SPI.transfer(0x00);
+      if (i % 2 == 0 || i == 2 * n - 1)  //get the 4MSB
+        *(buff + i + (1 - 2 * (i % 2))) = SPI.transfer(0x00);
+      else  //get the remaining 8LSB while sending request for the next conv (except for the last)
+      {
+        CHSEL++;//request conv for the next channel
+        *(buff + i + (1 - 2 * (i % 2))) = SPI.transfer(0b10000000 | (CHSEL << 3) | (SCAN << 1));
+      }
     }
     digitalWrite(CS_PIN[id], HIGH);
+  }
+
+  void read_value(int id, uint16_t *val, int n) {
+    if (m_fast_read_mode)
+      fast_read_value(id, val, n);
+    else {
+      conf_conversion(id, n - 1, SCAN_0_TO_N);
+      while (digitalRead(EOC_PIN[id]) == HIGH) {
+      };
+
+      uint8_t *buff = (uint8_t *)val;
+      digitalWrite(CS_PIN[id], LOW);
+      for (int i = 0; i < 2 * n; i++) {
+        *(buff + i + (1 - 2 * (i % 2))) = 0;
+        *(buff + i + (1 - 2 * (i % 2))) = SPI.transfer(0x00);
+      }
+      digitalWrite(CS_PIN[id], HIGH);
+    }
   }
 
   void select_raw(int id, uint8_t raw) {
@@ -167,6 +203,7 @@ private:
   int EOC_PIN[2] = { 46, 47 };
   int ADD_PIN[4] = { 40, 41, 42, 43 };
   int EN_PIN[2] = { 44, 45 };
+  bool m_fast_read_mode = false;
 };
 
 #endif

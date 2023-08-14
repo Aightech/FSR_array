@@ -1,4 +1,3 @@
-#include <SPI.h>
 #include "fsr.hpp"
 
 #include <NativeEthernet.h>
@@ -13,14 +12,12 @@ EthernetServer server(5000);
 uint8_t buff[4 * 2 + 2048 * 2];
 uint16_t *val = (uint16_t *)(buff + 4 * 2);
 uint32_t *t = (uint32_t *)buff;
+uint8_t end_c = 0xaa;
 
 FSR fsr;
 
 void setup() {
   Serial.begin(500000);
-  SPI.begin();
-  SPI.beginTransaction(SPISettings(5000000, MSBFIRST, SPI_MODE0));
-
   fsr.set_cs_pins(9, 10);        //set chip select pins
   fsr.set_eoc_pins(8, 25);       //set end of cmd pins
   fsr.set_add_pins(2, 3, 4, 5);  //set address pins
@@ -39,11 +36,6 @@ void setup() {
   Serial.print("server is at ");
   Serial.println(Ethernet.localIP());
 
-  //  delay(10);
-  //  Serial.write(0xaa);
-  //  char c;
-  //  while (c != 0xbb)
-  //    c = Serial.read();
 }
 
 
@@ -64,7 +56,6 @@ void loop() {
         t[0] = micros();
         if (conf == 0x80) {
           len = 8 + 2 * n * n * 2;
-          t[0] = len;
           n = min(n, 16);
           fsr.scan_2array(val, n);
         } else {
