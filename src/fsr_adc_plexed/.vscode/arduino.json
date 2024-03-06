@@ -1,0 +1,6 @@
+{
+    "port": "/dev/ttyACM0",
+    "board": "arduino:avr:mega",
+    "sketch": "fsr_adc_plexed.ino",
+    "configuration": "cpu=atmega2560"
+}
