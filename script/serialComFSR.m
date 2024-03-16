@@ -27,6 +27,7 @@ while running
     prev_dt=dt;
     dt = read(device,2,"uint32");%get timestamps
     disp(dt(1)-prev_dt(1));
+    disp(dt);
 
     if(nb_layer==2)
         vec = read(device,2*n*n,"uint16");%get forces array
@@ -43,17 +44,18 @@ while running
     %array(18,:)=array(17,:);
 
     %plot the data
-%     maxz=800;
-% %    hSurface=surf(array);
-%     hSurface=surf(300+array(1:16,:));
-%     hold on;
-%     surf(array(17:end,:));
-%     hold off;
-%     caxis([0,maxz]);
-%     colorbar;
-%     zlim([0,maxz]);
-%     view([135 20]);
-plot(dt(1),array(8,8));
+    maxz=800;
+%    hSurface=surf(array);
+    hSurface=surf(array(1:16,:));
+    hold on;
+    surf(300+array(17:end,:));
+    hold off;
+    caxis([0,maxz]);
+    colorbar;
+    zlim([0,maxz]);
+    view([135 20]);
+
+%plot(dt(1),array(8,8));
 
 %     k=8;
 %     plot(x,array(k,1:16));
