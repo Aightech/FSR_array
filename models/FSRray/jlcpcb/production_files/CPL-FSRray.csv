@@ -1,0 +1,23 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+ADC1,MAX11632EEGT,MAX11632EEGT,170.0,-110.937653,90.0,top
+ADC2,MAX11632EEGT,MAX11632EEGT,187.2,-110.937653,90.0,top
+C1,100n,C0603,170.6,-105.937653,180.0,top
+C2,100n,C0603,187.7,-105.937653,180.0,top
+J1,measuring_input4,fcp_vertical_ULP94V0,208.205,-89.950001,90.0,top
+J2,measuring_input4,fcp_vertical_ULP94V0,208.2,-107.600001,90.0,top
+J3,measuring_input4,fcp_vertical_ULP94V0,190.9,-117.337653,0.0,top
+J4,measuring_input4,fcp_vertical_ULP94V0,173.6625,-117.322653,0.0,top
+J5,measuring_input4,fcp_vertical_ULP94V0,149.0,-80.0,0.0,top
+J11,teensy_right,PinSocket_1x24_P2.54mm_Vertical,161.98,-85.025,90.0,top
+J12,teensy_left,PinSocket_1x24_P2.54mm_Vertical,161.98,-100.265,90.0,top
+J17,usb_B,usbB_stewart,132.97,-112.98,90.0,bottom
+MUX1,CD74HC4067SM,SSOP-24_5.3x8.2mm_P0.65mm,200.6,-103.500002,90.0,top
+MUX2,CD74HC4067SM,SSOP-24_5.3x8.2mm_P0.65mm,200.6,-85.700001,90.0,top
+RN1,R_Pack04,R_Array_Convex_4x0402,167.6,-120.537653,180.0,top
+RN2,R_Pack04,R_Array_Convex_4x0402,171.7,-120.537653,180.0,top
+RN3,R_Pack04,R_Array_Convex_4x0402,175.7,-120.537653,180.0,top
+RN4,R_Pack04,R_Array_Convex_4x0402,179.7,-120.537653,180.0,top
+RN5,R_Pack04,R_Array_Convex_4x0402,184.9,-120.737653,180.0,top
+RN6,R_Pack04,R_Array_Convex_4x0402,188.9,-120.737653,180.0,top
+RN7,R_Pack04,R_Array_Convex_4x0402,192.9,-120.737653,180.0,top
+RN8,R_Pack04,R_Array_Convex_4x0402,196.9,-120.737653,180.0,top
