@@ -199,10 +199,10 @@ public:
 
 
 private:
-  int CS_PIN[2] = { 48, 49 };
-  int EOC_PIN[2] = { 46, 47 };
-  int ADD_PIN[4] = { 40, 41, 42, 43 };
-  int EN_PIN[2] = { 44, 45 };
+  int CS_PIN[2] = { 9, 10 };
+  int EOC_PIN[2] = { 14, 15 };
+  int ADD_PIN[4] = { 2, 3, 4, 5 };
+  int EN_PIN[2] = { 6, 7 };
   bool m_fast_read_mode = false;
 };
 

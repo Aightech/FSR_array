@@ -1,6 +1,6 @@
 #include "fsr.hpp"
 
-uint8_t buff[4 * 2 + 2048 * 2 + 1];
+uint8_t buff[4 * 2 + 512 * 2 + 1];
 uint16_t *val = (uint16_t *)(buff + 4 * 2);
 uint32_t *t = (uint32_t *)buff;
 uint8_t end_c = 0xaa;
@@ -34,10 +34,10 @@ void setup() {
 
 
 
-  // fsr.set_cs_pins(9, 10);        //set chip select pins
-  // fsr.set_eoc_pins(8, 25);       //set end of cmd pins
-  // fsr.set_add_pins(2, 3, 4, 5);  //set address pins
-  // fsr.set_en_pins(6, 7);         //set enable pins
+  fsr.set_cs_pins(48, 49);        //set chip select pins
+  fsr.set_eoc_pins(46, 47);       //set end of cmd pins
+  fsr.set_add_pins(40, 41, 42, 43);  //set address pins
+  fsr.set_en_pins(44, 45);         //set enable pins
   fsr.begin();                   //set up the inpout/output pins of the FSR
 
 }
