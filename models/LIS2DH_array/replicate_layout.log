@@ -1,0 +1,265 @@
+07-18 14:56:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+07-18 14:56:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.10.12 (main, Mar 22 2024, 16:50:05) [GCC 11.4.0]'
+07-18 14:56:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.4-rc2-202407082205~7740c66479~ubuntu22.04.1
+07-18 14:56:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.3
+07-18 14:56:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x77bd8c340430>
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U7 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U14 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U13 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U8 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U16 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U11 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U3 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U5 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U6 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U15 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U4 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U2 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U12 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U10 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U9 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U1 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U26 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U23 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U19 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U22 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U27 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U24 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U30 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U21 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U32 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U17 does not exist in the database and will be created from the board.
+07-18 15:28:34 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U31 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U18 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U28 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U20 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U29 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U25 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC12 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C22 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C29 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C20 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC5 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C31 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C27 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC14 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC16 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C32 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC13 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC8 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C12 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C6 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C7 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C23 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC3 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC4 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C14 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC17 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C19 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C11 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C28 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C8 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C13 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C4 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC1 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC11 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C1 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C3 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C5 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC15 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C26 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C25 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C18 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC7 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC10 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C17 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C9 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C24 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC6 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C15 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C10 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C21 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C16 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C30 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC2 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part FPC9 does not exist in the database and will be created from the board.
+07-18 15:28:35 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C2 does not exist in the database and will be created from the board.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U7 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U14 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U13 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U8 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U16 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U11 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U3 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U5 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U6 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U15 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U4 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U12 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U10 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U9 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U26 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U23 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U19 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U22 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U27 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U24 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U30 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U21 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U32 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U17 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U31 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U18 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U28 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U20 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U29 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U25 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC12 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC5 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC14 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC16 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC13 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC8 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC3 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC4 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC17 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC11 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC15 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC7 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC10 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC6 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:29:54 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC9 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Top layer
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Silk top
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Mask top
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Paste top
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Bottom layer
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Silk top
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Mask bottom
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Paste bottom
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Edges
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted V score cut
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 228:Finished generating Excellon files
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 245:Finished generating ZIP file
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 281:Finished generating CPL file
+07-18 15:30:21 com_github_bouni_kicad-jlcpcb-tools.fabrication 298:Finished generating BOM file
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U7 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U14 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U13 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U8 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U16 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U11 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U3 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U5 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U6 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U15 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U4 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U12 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U10 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U9 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U26 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U23 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U19 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U22 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U27 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U24 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U30 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U21 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U32 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U17 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U31 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U18 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U28 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U20 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U29 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U25 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC12 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC5 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC14 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC16 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC13 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC8 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC3 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC4 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC17 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC11 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC15 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC7 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC10 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC6 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:31:41 com_github_bouni_kicad-jlcpcb-tools.store 227:Part FPC9 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:35:03 com_github_bouni_kicad-jlcpcb-tools.library 57:Data directory 'jlcpcb' does not exist and will be created.
+07-18 15:35:03 com_github_bouni_kicad-jlcpcb-tools.library 234:Create SQLite table for rotations
+07-18 15:35:03 com_github_bouni_kicad-jlcpcb-tools.library 428:Parts db is split into 13 parts. Proceeding to download...
+07-18 15:35:03 com_github_bouni_kicad-jlcpcb-tools.library 432:Removing any spurious old zip part files...
+07-18 15:35:06 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 1 with a size of 76.29MB
+07-18 15:35:08 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 2 with a size of 76.29MB
+07-18 15:35:11 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 3 with a size of 76.29MB
+07-18 15:35:14 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 4 with a size of 76.29MB
+07-18 15:35:17 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 5 with a size of 76.29MB
+07-18 15:35:20 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 6 with a size of 76.29MB
+07-18 15:35:23 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 7 with a size of 76.29MB
+07-18 15:35:26 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 8 with a size of 76.29MB
+07-18 15:35:30 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 9 with a size of 76.29MB
+07-18 15:35:33 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 10 with a size of 76.29MB
+07-18 15:35:36 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 11 with a size of 76.29MB
+07-18 15:35:39 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 12 with a size of 76.29MB
+07-18 15:35:41 com_github_bouni_kicad-jlcpcb-tools.library 475:Download parts db chunk 13 with a size of 58.80MB
+07-18 15:35:42 com_github_bouni_kicad-jlcpcb-tools.library 502:Combining and extracting zip part files...
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U7 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U14 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U13 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U8 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U16 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U11 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U3 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U5 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U6 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U15 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U4 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U12 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U10 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U9 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U26 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U23 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U19 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U22 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U27 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U24 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U30 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U21 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U32 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U17 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U31 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U18 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U28 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U20 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U29 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part U25 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC12 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC5 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC14 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC16 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC13 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC8 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC3 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC4 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC17 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC11 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC15 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC7 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC10 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC6 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+07-18 15:36:01 com_github_bouni_kicad-jlcpcb-tools.store 225:Part FPC9 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
