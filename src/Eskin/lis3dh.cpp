@@ -36,18 +36,12 @@ LIS3DH::begin(SPIClass &comm, uint8_t CS_add)
 {
     CS_address = CS_add;
     _spi_com = &comm;
-    _wire_com = NULL;
-
     pinMode(23, OUTPUT);
     pinMode(22, OUTPUT);
     pinMode(21, OUTPUT);
     pinMode(20, OUTPUT);
 
-    // Maximum SPI frequency is 10MHz, Data is read and written MSb first,
-    // Data is captured on rising edge of clock (CPHA = 0)
-    // Base value of the clock is HIGH (CPOL = 1)
-    // MODE3 for 328p operation
-    SPISettings _settings(10000000, MSBFIRST, SPI_MODE3);
+    _settings= SPISettings(10000000, MSBFIRST, SPI_MODE0);
 
     uint8_t config5 =
         LIS3DH_REG_TEMP_ADC_PD_ENABLED | LIS3DH_REG_TEMP_TEMP_EN_DISABLED;
@@ -60,7 +54,6 @@ LIS3DH::begin(SPIClass &comm, uint8_t CS_add)
         LIS3DH_REG_ACCEL_CTRL_REG1_AYEN_ENABLE | // Acceleration Y-Axis Enabled
         LIS3DH_REG_ACCEL_CTRL_REG1_AXEN_ENABLE;
 
-  
     writeRegister(LIS3DH_REG_ACCEL_CTRL_REG1, config1);
     delay(LIS3DH_CONVERSIONDELAY);
 }
@@ -100,12 +93,6 @@ LIS3DH::getTemperature(void)
     int16_t result = ((int16_t)readRegisterInt16(0x0c)) / 256;
     result += 25;
     return result;
-}
-
-bool
-LIS3DH::isConnection(void)
-{
-    return (getDeviceID() == 0x33);
 }
 
 uint8_t
@@ -208,6 +195,13 @@ LIS3DH::getAccelerationRaw(int16_t *x, int16_t *y, int16_t *z)
     *y = ((int16_t *)buf)[1];
     // 16-bit signed result for Z-Axis Acceleration Data of LIS3DH
     *z = ((int16_t *)buf)[2];
+}
+
+void 
+LIS3DH::getAccelerationRaw(uint8_t *buf)
+{
+    // Read the Accelerometer
+    readRegisterRegion(buf, LIS3DH_REG_ACCEL_OUT_X_L, 6);
 }
 
 float
@@ -337,13 +331,9 @@ void
 LIS3DH::_CS(bool active)
 {
     if(active)
-    {
         _select_addr(CS_address);
-    }
     else
-    {
-        _select_addr(CS_address - 1);
-    }
+        _select_addr(CS_address - 2);
 }
 
 void
@@ -353,12 +343,12 @@ LIS3DH::readRegisterRegion(uint8_t *outputPointer, uint8_t reg, uint8_t length)
     // define pointer that will point to the external space
     uint8_t i = 0;
     uint8_t c = 0;
-
     _spi_com->beginTransaction(_settings);
     _CS(true);
     _spi_com->transfer(
         reg | 0x80 |
         0x40);        // Ored with "read request" bit and "auto increment" bit
+    //delayMicroseconds(10); // delay for at least 60us
     while(i < length) // slave may send less than requested
     {
         c = _spi_com->transfer(0x00); // receive a byte as character
@@ -366,6 +356,17 @@ LIS3DH::readRegisterRegion(uint8_t *outputPointer, uint8_t reg, uint8_t length)
         outputPointer++;
         i++;
     }
+    _CS(false);
+    _spi_com->endTransaction();
+}
+
+void
+LIS3DH::writeRegisterRegion(uint8_t *data, uint8_t reg, uint8_t length)
+{
+    _spi_com->beginTransaction(_settings);
+    _CS(true);
+    _spi_com->transfer(reg | 0x40); // Ored with "auto increment" bit
+    for(uint8_t i = 0; i < length; i++) { _spi_com->transfer(data[i]); }
     _CS(false);
     _spi_com->endTransaction();
 }
