@@ -1,0 +1,5000 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "088343b1-32aa-43c7-a40d-604456041856")
+	(paper "A4")
+	(title_block
+		(title "Vibraptic Grid 9x9")
+		(date "2023-05-18")
+		(rev "1.0")
+		(company "Imperial College")
+		(comment 1 "Author: Alexis DEVILLARD")
+	)
+	(lib_symbols
+		(symbol "00_lcsc:AFC01-S22FCA-00"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FPC"
+				(at 0 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AFC01-S22FCA-00"
+				(at 0 -39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "00_lcsc:FPC-SMD_P0.5-22P_FGS-XJ-H2.0"
+				(at 0 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S22FCA-00_C262668.html"
+				(at 0 -44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C262668"
+				(at 0 -46.99 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AFC01-S22FCA-00_0_1"
+				(rectangle
+					(start -1.27 29.21)
+					(end 6.35 -29.21)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 26.67 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 3.81 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 1.27 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -1.27 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -3.81 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -6.35 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -8.89 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -11.43 0)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -13.97 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -16.51 0)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -19.05 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 24.13 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -21.59 0)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -24.13 0)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -26.67 0)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -34.29 90)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 34.29 270)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 21.59 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 19.05 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 16.51 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 13.97 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 11.43 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 8.89 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 6.35 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 58.42 176.53)
+		(uuid "18c85432-4bb0-4d91-956c-b583391ee8d0")
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 57.15 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06a4ea99-6776-404f-a29f-74acb98e548d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.1599 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 85.09 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a7bd4fc-6f1c-453d-8b0f-bf7515285949")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9872 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_11"
+		(shape input)
+		(at 91.44 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0abac54c-fc22-4e62-ab2b-f536a671f9c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 186.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 105.41 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0afa2820-9c7d-4e2a-ad83-61d72309fd08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.4199 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 185.42 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b781850-d8c6-4ad6-9fd5-b5de66276d85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.9544 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 85.09 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13fabd32-4be6-4de8-9f8f-ed870f2c83cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.6244 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 135.89 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1408e027-da23-483e-acb2-a7daadb35526")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.6663 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 50.8 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15413e66-6902-482f-9f0e-ecc015393fe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 183.3252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 234.95 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "171062b1-0dcf-41c2-b8ff-86e6e40fde01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.7263 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 57.15 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "172c5d50-2f6a-460f-87bc-e9842c164d2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4342 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 40.64 165.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "186a1a7c-abbb-4682-8101-6e0e12befb55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 171.9557 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 234.95 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a290f97-b320-489c-8303-62af99a74e66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.4844 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 85.09 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1efb1c57-ac85-4694-bc31-616e6a52a201")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.8663 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 86.36 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "201c2aa4-f123-4eae-828d-5e78fccd586c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2572 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 154.94 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2164c717-d915-4a97-bffd-af70f1e8b379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9499 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 205.74 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2371b40a-89b9-4222-81e2-598f79839689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0242 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 109.22 165.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24dd46d5-4373-44a6-b5bd-db0e94f70e6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 171.9557 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_10"
+		(shape input)
+		(at 66.04 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25cdc5c1-0875-46ce-b163-9489f9cd4d9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 186.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_1"
+		(shape input)
+		(at 60.96 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a5cb2b0-0c0b-4a7a-967d-8dcdceeb0f8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 106.68 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c901279-924a-4f7c-81b0-f82267598079")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.6899 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_4"
+		(shape input)
+		(at 83.82 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d3b8413-d0aa-44b3-b096-6c1f84ab0fc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_14"
+		(shape input)
+		(at 134.62 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e34f13a-9b35-4036-b62a-04307046891f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.6203 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 184.15 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30b1cdd1-9dd2-4f54-adcf-3dfc7a4ba0b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.0472 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 135.89 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31a452a0-a329-40aa-9422-53afa3ddcbe5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.7872 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_9"
+		(shape input)
+		(at 71.12 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a975553-0dcc-4df7-b6c1-a9c4b7b4b6b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 106.68 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b9b157d-3c6c-4c9b-b9cd-1ce718d8493d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.9642 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 57.15 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c49ac4e-2638-4d88-b366-d7f3947209af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4342 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 205.74 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d1afb86-7d90-4545-986f-a0cf631f9402")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7499 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 204.47 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d1de77d-7e96-469d-83ee-7813b987bbae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.4799 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_7"
+		(shape input)
+		(at 99.06 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fc78edb-bf5f-491e-b529-e65d1abf6bc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 53.34 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43681ced-bcef-459d-b478-cb9f85da442f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 183.5066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_7"
+		(shape input)
+		(at 185.42 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44f1c97a-3719-477d-b581-11d4e647d50d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1314 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45653bf9-ae67-43a0-b375-a22ae375492e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.1963 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 106.68 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "476d01c8-2990-4110-b5b7-fda327394632")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.9642 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 156.21 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b89d920-00c4-4231-96ba-2b06379f68a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.2199 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 234.95 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4da71730-864c-4b17-b4ae-8dcdf24cb21a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.8472 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 86.36 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f524a27-a571-4222-9087-0dfe45f24acb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.1363 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_5"
+		(shape input)
+		(at 86.36 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f956fc1-0065-4f83-afab-ca04770c4813")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.0714 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 134.62 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "504ebded-fc5e-4de9-8e4c-165860507a1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1544 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 204.47 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "542857b1-b1f8-43c1-86b4-819b165fa3b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7542 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 57.15 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "546bf7aa-7654-41c3-8dbe-a2b76a6f0584")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4342 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 233.68 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b40f4f1-973d-4c40-88cc-3c799a4396a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4563 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_2"
+		(shape input)
+		(at 135.89 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c88b588-baac-4dbe-a9e1-a49c385ba8f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.6014 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_16"
+		(shape input)
+		(at 234.95 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cb3542c-ae16-4193-b222-176322eec6c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9503 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 101.6 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61f23213-807f-4bbf-a999-fde197928f75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 183.3857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 55.88 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "627b7be9-4f9b-4681-ba66-9d93986948bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.1642 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 86.36 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "633b3b88-8c96-4348-a5ae-cc00c7ebb075")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2572 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 156.21 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64c58e15-ca40-45da-8289-7f8ebe9d4b9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.2199 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 205.74 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66e9d2e5-5e3a-472c-b3e9-49e538e0a10f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7499 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_1"
+		(shape input)
+		(at 86.36 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a2ac340-35b7-4152-91b6-15cd42c3d9f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.0714 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 135.89 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b0ba81f-b796-476f-82ed-2122ff8779bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.6663 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 185.42 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bf7c2ab-9161-4ad3-bc97-1b0a2297f7d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.3172 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_16"
+		(shape input)
+		(at 93.98 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fb379d9-7bcc-4137-bc7c-279486808fcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 186.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 185.42 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71b05a48-10e9-484f-8a32-35bd1ff4435e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.9544 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_10"
+		(shape input)
+		(at 135.89 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "725748de-e5f1-4926-993f-70e98824f369")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8903 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 156.21 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "732f167e-b7cf-4edd-9a9b-816835a1afc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.4942 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 156.21 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "740dc5b0-7168-49df-84b4-00fd91aba834")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.2199 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_9"
+		(shape input)
+		(at 86.36 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "760b50f9-480c-4b89-8a30-0e2f22e7993b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.0714 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_6"
+		(shape input)
+		(at 135.89 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bef4883-5604-4f14-a4bf-abe2d63c99d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.6014 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 233.68 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bfc6d39-f55c-4049-bbb9-a2f593a2b73a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.5772 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 86.36 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d2f2f3a-43f4-44f4-a5ac-260e8489ad8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.1363 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 204.47 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86d55cf1-7b8e-4b70-9b84-81572a3613c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.4799 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 134.62 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86e5b0c5-c770-4912-adf3-9de0428daf1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.3963 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 135.89 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "878a868c-90a1-438c-a307-aaaa56385c55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.7872 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 154.94 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8808310b-a01d-474b-b605-22f2de94bdce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.2242 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_11"
+		(shape input)
+		(at 185.42 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "882d25e4-30f1-4cdb-a019-79050e9c9846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.4203 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 57.15 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8998c85e-527b-4708-8235-8dd935370009")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.1599 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 135.89 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a07205a-b25b-4b2b-9977-16e15ad34bda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.4244 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_15"
+		(shape input)
+		(at 184.15 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c9959ff-c540-46c0-8dfe-0e53ff660d28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1503 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_5"
+		(shape input)
+		(at 73.66 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "928071a9-e1fc-4742-b12f-9fea74145e91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_8"
+		(shape input)
+		(at 234.95 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9326699a-37ce-4435-8b01-dc6d61461b77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.6614 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 55.88 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9578926b-8d59-4087-8854-60316afae2da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.8899 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 233.68 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b440475-7c1a-4cf9-8271-0b90148515f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.5772 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 105.41 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b44783c-7f6c-4406-ba2e-b60b9445fe67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.6942 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 135.89 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cdcb3f6-6ac2-47bb-ad9e-b57f57f9ffaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.6663 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 185.42 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a18d87cd-334b-4bae-a6bc-8cb1554c9e0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.9544 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 184.15 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a23cdccc-3442-47aa-8ba8-9693478bcd9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.9263 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_12"
+		(shape input)
+		(at 233.68 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4c65f9b-66f9-4e20-af92-39f526d72c08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.6803 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 135.89 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a51a8539-a61c-4436-9e63-8957db4ca226")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.4244 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_6"
+		(shape input)
+		(at 76.2 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5f239e8-78b1-431a-b742-1428c62f9a2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 86.36 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a609c91e-20e7-46bf-a1d6-b3de3862aabb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8944 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_2"
+		(shape input)
+		(at 78.74 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a62bb136-9e41-424a-86ea-d650fc8fc70e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 233.68 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a735aaed-e9ba-4ad3-958a-86bd9542c861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.2144 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 234.95 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8e3461e-488a-43ec-a01b-d0f57c7dc9a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.8472 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_8"
+		(shape input)
+		(at 86.36 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9a8327b-0e5e-439d-8ab8-ca9e92286ce5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_13"
+		(shape input)
+		(at 85.09 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae0e37f5-e384-46ad-a7b9-f97d4ef55825")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.0903 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 55.88 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4146acd-5193-4d9e-ac2c-8361976869d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 182.5995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 185.42 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4485fa9-9911-45bd-99e2-4f3dc3271c17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.3172 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 204.47 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc5b3308-3d00-4ba5-8c78-368b4cc5c60b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7542 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 205.74 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcd5170f-13ff-4346-a215-7326e44544ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0242 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 233.68 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd534cc8-5f5a-4e9e-b82e-46ba8bcb68c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.2144 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 57.15 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd96803e-5ce4-42ad-a288-987601d2f24e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.1599 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 156.21 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bffa3ae2-15b3-4443-9bbb-279b0b8ffced")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.4942 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 106.68 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0a51d3b-34e9-4499-860a-c05457e00658")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.6899 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_12"
+		(shape input)
+		(at 88.9 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1d263ed-727c-4a55-aaeb-ebb6bb7fd22d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 186.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 233.68 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c338e0f2-b5ff-4e7c-9738-8f77e38780bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4563 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_4"
+		(shape input)
+		(at 233.68 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3ebad1d-9c62-4376-8976-8a310abd0163")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.3914 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 135.89 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5a9ceef-4036-4388-8dfa-d52741e3cd5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.7872 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 86.36 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6a034d3-a4c7-43a2-bbb2-c139ff1bb863")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8944 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb09132b-8bd9-412e-88d0-c7f9400a6ad0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.1963 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 134.62 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbcc84ab-1f19-4ddd-8140-93440c3ab4a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.5172 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_3"
+		(shape input)
+		(at 185.42 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4eeb31d-5d28-4dfe-ad62-bc278dbc9295")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1314 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_14"
+		(shape input)
+		(at 63.5 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d70b7759-d229-40ff-b352-f7b2ac259284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 186.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 86.36 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d880a144-2ae6-484f-b7a5-df430e7e84e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.1363 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 86.36 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc764007-ba41-401a-ac10-9ee7cdc93f78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8944 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 185.42 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dde22086-bdbb-4b19-bf23-3526da0d113b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.3172 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sclk"
+		(shape input)
+		(at 86.36 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4c65214-a729-452e-81a6-80d1c7a23f72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2572 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 135.89 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e863608d-9943-40d7-b71a-5d3a297029bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.4244 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_15"
+		(shape input)
+		(at 96.52 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9cc9642-0047-4e3c-a47e-862e412dba23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 186.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 184.15 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea50aba1-f91b-4d03-95c6-5d32dd8e2310")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.6844 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 48.26 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecfb5d11-2f50-4bf3-ae1a-f32511f25e7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 183.1438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 156.21 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eec706ad-5449-47d8-b029-cd18ded1f6fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.4942 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_3"
+		(shape input)
+		(at 81.28 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eedd17cd-0e31-4018-a73c-2314eaa1b761")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 185.3208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2d910ae-3015-478b-b80a-a4f143852a35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.1963 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 106.68 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6a3af56-3932-4a32-9175-3e38707e9490")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.9642 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 234.95 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f817bfd0-c30e-4df0-840f-c0609696b83f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.7263 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS_13"
+		(shape input)
+		(at 68.58 176.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f90a412f-c0e2-4677-8974-d65699920f49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 186.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 106.68 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff403733-eb0d-4270-b177-1276bb2951a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.6899 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 234.95 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff72f425-896d-4a4d-94cd-4d50ba8f2975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.4844 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_lcsc:AFC01-S22FCA-00")
+		(at 74.93 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "667b1fda-0d0f-4d24-ae93-cfb0487637c0")
+		(property "Reference" "FPC17"
+			(at 74.93 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AFC01-S22FCA-00"
+			(at 74.93 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00_lcsc:FPC-SMD_P0.5-22P_FGS-XJ-H2.0"
+			(at 116.84 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S22FCA-00_C262668.html"
+			(at 119.38 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C262668"
+			(at 121.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a101d62-6095-4019-8184-d60d431ccb5e")
+		)
+		(pin "16"
+			(uuid "a41998d2-8358-4e4a-8a00-5053666496f2")
+		)
+		(pin "18"
+			(uuid "91a0f9bd-0d4a-4823-bc82-bcdc2fd5d441")
+		)
+		(pin "19"
+			(uuid "d0e32641-71df-4104-93ed-1fce2cb65557")
+		)
+		(pin "8"
+			(uuid "3bc1955e-9c4f-437b-86dc-248359b91dbf")
+		)
+		(pin "5"
+			(uuid "266b356f-e9b1-4d50-876e-bcf8fc49df49")
+		)
+		(pin "21"
+			(uuid "57d8468c-d4ca-46cb-8fae-8d56b38f5338")
+		)
+		(pin "9"
+			(uuid "e6887294-df16-4518-aee0-ad463d319317")
+		)
+		(pin "15"
+			(uuid "e1af186a-4d02-4c18-86ce-c43e698f4eaa")
+		)
+		(pin "24"
+			(uuid "1a8b12b1-1cd4-4a8f-8303-c68058cc4184")
+		)
+		(pin "6"
+			(uuid "8257ac21-43a7-4219-b4c5-80e6de6cd417")
+		)
+		(pin "20"
+			(uuid "e2dd5b14-8387-42c6-b590-0eaff4adc365")
+		)
+		(pin "13"
+			(uuid "30f5d9cb-25a7-4fd9-8ece-1a92dbb15abd")
+		)
+		(pin "12"
+			(uuid "d17734de-bbf7-45a8-a201-17f4d88e2c32")
+		)
+		(pin "22"
+			(uuid "0813d130-56ce-48de-a763-886ddda58d8a")
+		)
+		(pin "11"
+			(uuid "26e8960e-c50f-4b13-9dca-bad75223fc2f")
+		)
+		(pin "10"
+			(uuid "4e429511-85e0-40c6-88b2-82f785dc582c")
+		)
+		(pin "3"
+			(uuid "4ea5e3af-ded4-4474-8a7a-c37687a0ce4a")
+		)
+		(pin "4"
+			(uuid "3d61dfa7-0656-408d-831e-fb71bf87d77b")
+		)
+		(pin "17"
+			(uuid "3df538f6-5bb5-42f1-9626-e3d50623f9ed")
+		)
+		(pin "7"
+			(uuid "c9d83cd0-7e72-420d-8305-f453415593f5")
+		)
+		(pin "23"
+			(uuid "ded234d3-62bf-4954-be10-504789897b9c")
+		)
+		(pin "1"
+			(uuid "7077e8a2-bad0-4847-98c6-dc5270cb95bd")
+		)
+		(pin "14"
+			(uuid "a36195b1-3803-40a8-ad6b-f00187e6b22a")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(reference "FPC17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 93.98)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a250753-2f1b-4db6-b0fd-bb786fbfaec2")
+		(property "Sheetname" "LIS2DH_unit9"
+			(at 57.15 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 57.15 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b037d296-06a3-4f6b-a317-13f031aa753a")
+		)
+		(pin "SDO_ADDR" input
+			(at 57.15 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adf58cfb-1a56-4f9e-acf9-d077b5c6155d")
+		)
+		(pin "SDI_SDA" input
+			(at 57.15 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a502d76d-8d32-4ffa-96a9-06d813f7997a")
+		)
+		(pin "nCS" input
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "713879a8-3db8-4784-8563-688f12ec33c1")
+		)
+		(pin "SCLK_SCL" input
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cd74874-3ee7-452f-8c34-4f07087e2e89")
+		)
+		(pin "VDD" input
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c65d1b9e-634a-411d-a897-5e5595c8f0ed")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 92.71)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "216bdaa4-b21c-4fea-a134-fc9e53e2c5be")
+		(property "Sheetname" "LIS2DH_unit11"
+			(at 156.21 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 156.21 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8041de90-4c85-4f1c-9514-a8bcd3ec0a87")
+		)
+		(pin "SDO_ADDR" input
+			(at 156.21 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b1496a6-b7b8-4b4f-99e7-cac9f9fb6b2f")
+		)
+		(pin "SDI_SDA" input
+			(at 156.21 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "62ce1bab-ecba-4045-87c7-0bcc7cddef23")
+		)
+		(pin "nCS" input
+			(at 185.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6dd4c35a-237d-48c4-8b9c-87291eeb6d5d")
+		)
+		(pin "SCLK_SCL" input
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6a35264-c273-4c38-8dbc-233c45b77ea3")
+		)
+		(pin "VDD" input
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33f3ac3c-c325-47fa-9a71-c706278373c4")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 120.65)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4196b40b-41a0-4a32-a0e5-7d2da09f4f78")
+		(property "Sheetname" "LIS2DH_unit14"
+			(at 105.41 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 105.41 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 105.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "883e6bc3-7c96-4fc7-865b-cceadf7937d1")
+		)
+		(pin "SDO_ADDR" input
+			(at 105.41 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "163d92bf-99a0-443c-9a7a-6e246014064e")
+		)
+		(pin "SDI_SDA" input
+			(at 105.41 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc14100f-1ed6-4e2f-a639-1b46e026cacc")
+		)
+		(pin "nCS" input
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d232da4d-079f-4c1b-8960-0a4b18701f92")
+		)
+		(pin "SCLK_SCL" input
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "525a4b45-4a3d-4f34-a7eb-1549ba5cc356")
+		)
+		(pin "VDD" input
+			(at 134.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9890208e-68d6-4e7b-9337-2aff246c13cd")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 31.75)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "449a3e28-5934-4b78-90c2-2442296ef97e")
+		(property "Sheetname" "LIS2DH_unit4"
+			(at 204.47 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 204.47 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf3bbbe2-ee37-4414-9dfa-a89c019c80be")
+		)
+		(pin "SDO_ADDR" input
+			(at 204.47 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b5e7e02-373f-4a94-9c27-15c49c39597d")
+		)
+		(pin "SDI_SDA" input
+			(at 204.47 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8b17d85-ebb9-4bb4-b9c8-ef47e45ce492")
+		)
+		(pin "nCS" input
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "852fbe99-0d42-4098-82cc-585c06a24ff5")
+		)
+		(pin "SCLK_SCL" input
+			(at 233.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddab5f4e-4aca-4c1d-9d66-9ddfb43c1bbf")
+		)
+		(pin "VDD" input
+			(at 233.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42d4dd71-534b-4124-80b8-371eb318cd4b")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 63.5)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46bbfefa-b39d-49c9-9b2f-2fb0dc009f69")
+		(property "Sheetname" "LIS2DH_unit5"
+			(at 57.15 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 57.15 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "909464f9-faa7-40be-9383-f0c3d5ca4f7a")
+		)
+		(pin "SDO_ADDR" input
+			(at 57.15 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26fb59b3-d6ae-4c1a-a2b4-19b91f8041a5")
+		)
+		(pin "SDI_SDA" input
+			(at 57.15 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "606f2548-8f3c-4428-ab1c-49abae048351")
+		)
+		(pin "nCS" input
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82e84411-987b-4532-bf7b-1e8da3be438f")
+		)
+		(pin "SCLK_SCL" input
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0339c09-5c18-4878-a55f-e679cc4f0f41")
+		)
+		(pin "VDD" input
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "895c06cf-8f67-4f42-a0f1-4e301a5bfcb7")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 93.98)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b16ea52-b402-4508-92b9-7a07f8adf659")
+		(property "Sheetname" "LIS2DH_unit10"
+			(at 106.68 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 106.68 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c24f3c7-7dcf-49c5-b7f6-42010694f910")
+		)
+		(pin "SDO_ADDR" input
+			(at 106.68 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "51352337-db73-4700-a2ab-f4b051b087e4")
+		)
+		(pin "SDI_SDA" input
+			(at 106.68 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "80de68c6-b09c-427c-b5dd-0c24763abc0a")
+		)
+		(pin "nCS" input
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e064d9ce-4c7f-4646-ae64-64c3b92e2123")
+		)
+		(pin "SCLK_SCL" input
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "330fa384-010e-4fec-8e33-143488dc8f16")
+		)
+		(pin "VDD" input
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d2ebf2f-a5f4-47ab-a81b-346a4b51ca35")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 93.98)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4efa5324-09d0-404b-8518-dd309e1a12de")
+		(property "Sheetname" "LIS2DH_unit12"
+			(at 204.47 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 204.47 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0b2e4c8-8861-48f3-8659-c82d22d82b61")
+		)
+		(pin "SDO_ADDR" input
+			(at 204.47 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1ce28794-d3a1-462f-ab08-264ef580dfea")
+		)
+		(pin "SDI_SDA" input
+			(at 204.47 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0abfa8fc-02bc-4cb4-8be6-cc57fb4ba96b")
+		)
+		(pin "nCS" input
+			(at 233.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "63803ccb-979e-43b8-a4fc-bfc9b67d2189")
+		)
+		(pin "SCLK_SCL" input
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc3c2afc-d29b-44a6-a970-c0f1bd38d2a0")
+		)
+		(pin "VDD" input
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85331ea1-cfda-401c-a0c2-4a25904d4c3a")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 31.75)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a21ef4e-4a58-4190-875b-67aaaf15cc55")
+		(property "Sheetname" "LIS2DH_unit2"
+			(at 106.68 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 106.68 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 135.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97562ae3-bd9d-4584-8a74-bcf7d145d893")
+		)
+		(pin "SDO_ADDR" input
+			(at 106.68 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8223ad1a-819c-41db-863d-8f523d616310")
+		)
+		(pin "SDI_SDA" input
+			(at 106.68 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b3b3583-0335-45a1-9d9c-5e95be5f819b")
+		)
+		(pin "nCS" input
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43847eba-45bf-40d1-b44c-139805dcba6e")
+		)
+		(pin "SCLK_SCL" input
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6baf3b90-d676-439c-abd4-a811dbfc36b7")
+		)
+		(pin "VDD" input
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "deaf8913-ef79-47d8-b2b8-4203f0226c36")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 124.46)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ff9cbdb-1f0b-4509-9e89-28e95e7baab2")
+		(property "Sheetname" "LIS2DH_unit16"
+			(at 205.74 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 205.74 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 234.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8babe53d-5222-4039-880d-62fffd60112b")
+		)
+		(pin "SDO_ADDR" input
+			(at 205.74 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f2cfbb4-71ef-43e1-9289-505c366041dd")
+		)
+		(pin "SDI_SDA" input
+			(at 205.74 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd005e25-96dc-4ae1-b01c-10874519e278")
+		)
+		(pin "nCS" input
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f1ab146-8e7d-4088-b723-bb38260c4ea9")
+		)
+		(pin "SCLK_SCL" input
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4143fd0-df24-46ee-ae20-b6fce11c1999")
+		)
+		(pin "VDD" input
+			(at 234.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e94cc6d-76dd-445e-b2fc-f9276d71981c")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 120.65)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99abc178-3461-4064-878a-d14b9aa8e7b1")
+		(property "Sheetname" "LIS2DH_unit13"
+			(at 55.88 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 55.88 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 85.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87727aaf-9aac-4988-8ae0-c3d2a90227df")
+		)
+		(pin "SDO_ADDR" input
+			(at 55.88 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5aca7a39-01dd-4164-8739-1445aac8339b")
+		)
+		(pin "SDI_SDA" input
+			(at 55.88 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9af44361-b429-49ad-94f3-c554576253b5")
+		)
+		(pin "nCS" input
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c604b4c-899a-4a1b-b3d5-58df7270fead")
+		)
+		(pin "SCLK_SCL" input
+			(at 85.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4118207-3164-439b-8f30-c66bded4af94")
+		)
+		(pin "VDD" input
+			(at 85.09 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c171a3f3-1ffc-44e3-964f-f3da0ebd25a4")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 63.5)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a04c0eda-47a2-46bc-985a-c37d56d9cb86")
+		(property "Sheetname" "LIS2DH_unit6"
+			(at 106.68 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 106.68 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd82ff1b-f3e2-43ff-80f5-ac76bf514095")
+		)
+		(pin "SDO_ADDR" input
+			(at 106.68 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2be72f8-fce6-435f-9ff6-803b486357fb")
+		)
+		(pin "SDI_SDA" input
+			(at 106.68 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "813a7134-0a5c-4cbf-86c1-43931c3128a7")
+		)
+		(pin "nCS" input
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9672281c-2e7e-4cc3-827b-cdc950f8ab07")
+		)
+		(pin "SCLK_SCL" input
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c18d4797-2184-409f-a526-555b63f6f211")
+		)
+		(pin "VDD" input
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2621578-fd49-4113-adfb-3038466cf645")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 31.75)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b19dac12-c9b9-47a0-bceb-0440011a6691")
+		(property "Sheetname" "LIS2DH_unit1"
+			(at 57.15 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 57.15 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 57.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2642d12e-eb7a-45bb-b177-80d49e8b3a5c")
+		)
+		(pin "SDO_ADDR" input
+			(at 57.15 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34b83688-bd69-4a4e-a894-68d1e43a56d3")
+		)
+		(pin "nCS" input
+			(at 86.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4f0d1d7-5c18-41fb-8c13-58d3753078f1")
+		)
+		(pin "SCLK_SCL" input
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e01ad87d-f6ad-41d9-9952-7cbbaa659d11")
+		)
+		(pin "VDD" input
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddcfafc3-369d-4137-bf7a-6a63870903e1")
+		)
+		(pin "SDI_SDA" input
+			(at 57.15 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28586f9a-f5d0-48b0-9fc2-e3961e4a6406")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 31.75)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0533eda-3faa-4178-be48-87706e607a8a")
+		(property "Sheetname" "LIS2DH_unit3"
+			(at 156.21 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 156.21 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8435fac5-7486-4658-85fe-a5974e676d13")
+		)
+		(pin "SDO_ADDR" input
+			(at 156.21 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "090ccf3e-b1ec-4bc0-bb35-5dafc3f23f89")
+		)
+		(pin "SDI_SDA" input
+			(at 156.21 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f8d4c1d-d2bc-483e-b81b-fc82c9b9e413")
+		)
+		(pin "nCS" input
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db3e251d-bbcd-40a5-905b-e84159fc6dc7")
+		)
+		(pin "SCLK_SCL" input
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70d2af99-de3a-4627-a0d2-0d16152f6739")
+		)
+		(pin "VDD" input
+			(at 185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e075b8e1-7c35-4a36-a648-06a004ae4451")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 123.19)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef86a211-0e67-48a9-a57b-8c0dad3edc25")
+		(property "Sheetname" "LIS2DH_unit15"
+			(at 154.94 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 154.94 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42983a08-4416-45e6-aa69-577e604e41ae")
+		)
+		(pin "SDO_ADDR" input
+			(at 154.94 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d5c1af9-5e5f-4d5e-a59f-ada9407210d8")
+		)
+		(pin "SDI_SDA" input
+			(at 154.94 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6b82f66-0266-4506-a388-ac4419221219")
+		)
+		(pin "nCS" input
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96b771cb-7681-40a3-a72e-faf8009594a5")
+		)
+		(pin "SCLK_SCL" input
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f457f99c-aa15-4d72-a835-933b44f498e3")
+		)
+		(pin "VDD" input
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f11c9a4d-7892-42ee-8685-b38d57e16553")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 62.23)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f976a518-1256-4c19-93c6-910baefe5403")
+		(property "Sheetname" "LIS2DH_unit8"
+			(at 205.74 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 205.74 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "71138100-ba39-4ee4-9b97-fe95f106283c")
+		)
+		(pin "SDO_ADDR" input
+			(at 205.74 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87d24b25-fa49-4315-a6bd-b6b5465d526e")
+		)
+		(pin "SDI_SDA" input
+			(at 205.74 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bacf3e27-a663-46c5-872b-de3c09e6ad7b")
+		)
+		(pin "nCS" input
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25880924-0cc0-4935-a51e-5306c147ec37")
+		)
+		(pin "SCLK_SCL" input
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30a61d6c-0847-4046-a172-5f15607234f9")
+		)
+		(pin "VDD" input
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c169e73f-3de1-4dd4-920e-2c8ff5f5fb98")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 63.5)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fab6b3a9-ce82-4557-b47a-fa6fff2ead3c")
+		(property "Sheetname" "LIS2DH_unit7"
+			(at 156.21 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIS2DH_unit1.kicad_sch"
+			(at 156.21 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df6bb8cc-0176-4c6e-9e0c-7164a44c329c")
+		)
+		(pin "SDO_ADDR" input
+			(at 156.21 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4208651a-527e-4d90-b5b0-7580b2e74b17")
+		)
+		(pin "SDI_SDA" input
+			(at 156.21 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d142b9f1-d215-4463-8d2c-0b612ff519d1")
+		)
+		(pin "nCS" input
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57ab6be3-abc0-4b50-9504-983d8ee1acf2")
+		)
+		(pin "SCLK_SCL" input
+			(at 185.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7317b9aa-d883-4e72-b930-11b8f7a6bb24")
+		)
+		(pin "VDD" input
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e912f0a-7380-4fae-b5fe-6bbca4cbeb64")
+		)
+		(instances
+			(project "LIS2DH_array"
+				(path "/088343b1-32aa-43c7-a40d-604456041856"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
