@@ -34,8 +34,10 @@ with serial.Serial(sys.argv[1], 500000, timeout=3) as arduino:
         prev = dt_acc
         dt_acc = int.from_bytes(d[0:4], "little")
         dt_fsr = int.from_bytes(d[4:8], "little")
-        print(dt_acc-prev)
         acc = np.frombuffer(d[8:8 + 16*6], dtype=np.int16).reshape(16, 3)
+        for i in range(16):
+            print(f"{acc[i, 2]}\t", end="")
+        print()
         fsr = np.frombuffer(d[8 + 16*6:], dtype=np.uint16).reshape(16, 2, 16)
         
         

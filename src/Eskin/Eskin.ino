@@ -3,15 +3,25 @@
 #define ACC_SAMPLE_RATE 1000
 #define FSR_SAMPLE_RATE 200
 
+uint8_t arr0x17[16] = {0x1F, 0x23,             //21
+                       0x22, 0x22,             //21
+                       0x23, 0x23,             //25
+                       0x1F, 0x1C,             //D
+                       0x1E, 0x23, 0x23, 0x1C, //D
+                       0x1F, 0x22, 0x1C, 0x1E};
+
 FSR fsr;
 
 uint16_t fsr_data[2 * 16 * 16];
 int16_t acc_data[3 * 4 * 4];
 uint32_t ts_acc = 0;
 uint32_t ts_fsr = 0;
-uint8_t size_acc = 0;
+uint8_t size_acc = 16;
 uint8_t size_fsr = 0;
 uint8_t layers_fsr = 0;
+int count = 0;
+
+uint8_t LIS3DH::last_index = 0;
 
 //protocol:
 //read 1 byte: 2 MSB bits are mode, 6 LSB bits are size
@@ -30,17 +40,23 @@ IntervalTimer timer_fsr;
 
 LIS3DH lis3dh[16];
 
+int aa = 1;
+
 void
 acc_callback()
 {
     if(size_acc == 0)
         return;
     ts_acc = micros();
-    for(int i = 0; i < size_acc; i++)
+
+    for(int i = 0; i < 16; i++)
     {
         lis3dh[i].getAccelerationRaw(&acc_data[i * 3], &acc_data[i * 3 + 1],
                                      &acc_data[i * 3 + 2]);
+        // Serial.print(acc_data[i * 3 + 2]);
+        // Serial.print(" ");
     } //256us
+    // Serial.println();
 }
 
 void
@@ -58,37 +74,27 @@ fsr_callback()
 }
 
 void
-select_address(uint8_t addr)
-{
-    digitalWrite(23, addr & 0b0001);
-    digitalWrite(22, addr & 0b0010);
-    digitalWrite(21, addr & 0b0100);
-    digitalWrite(20, addr & 0b1000);
-}
-
-void
 setup()
 {
     Serial.begin(115200);
-    //while(!Serial);
+    // while(!Serial);
     fsr.begin();
     SPI1.begin();
+
+    delay(1000);
     // initialize LIS3DH accelerometers
     for(int i = 0; i < 16; i++)
-    {
-        // pass select_address function to LIS3DH constructor
+    { // pass select_address function to LIS3DH constructor
         lis3dh[i].begin(SPI1, i);
-
-        // Serial.print("LIS3DH found at address ");
-        // Serial.println(i);
         lis3dh[i].setFullScaleRange(LIS3DH_RANGE_2G);
         lis3dh[i].setOutputDataRate(LIS3DH_DATARATE_5KHZ);
         lis3dh[i].setHighSolution(true);
-        delay(10);
+        // lis3dh[i].openTemp();
+        delay(1);
     }
 
-    timer_acc.begin(acc_callback, 1000000 / ACC_SAMPLE_RATE);
-    timer_fsr.begin(fsr_callback, 1000000 / FSR_SAMPLE_RATE);
+    // timer_acc.begin(acc_callback, 1000000 / ACC_SAMPLE_RATE);
+    //timer_fsr.begin(fsr_callback, 1000000 / FSR_SAMPLE_RATE);
 }
 
 void
@@ -147,12 +153,8 @@ loop()
         case 3: //request 1 ACC array of 4*4 elements and 2 FSR arrays of size*size elements
             //no parallelism, the data is sent in the order ACC, FSR1, FSR2
             ts_acc = micros();
-            for(int i = 0; i < 16; i++)
-            {
-                lis3dh[i].getAccelerationRaw(&acc_data[i * 3],
-                                             &acc_data[i * 3 + 1],
-                                             &acc_data[i * 3 + 2]);
-            } //256us
+            for(int i = 0; i < 16; i++) //256us
+                lis3dh[i].getAccelerationRaw((uint8_t *)&acc_data[i * 3]);
             ts_fsr = micros();
             //[fsr_l1_row1, fsr_l2_row1, fsr_l1_row2, fsr_l2_row2, ...]
             fsr.scan_2array(fsr_data, size);
