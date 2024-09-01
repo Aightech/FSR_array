@@ -1256,7 +1256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f6dc359-068b-4d3e-9333-eff07aeac760")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 116.84 119.38 0)
 			(effects
 				(font
@@ -1580,7 +1580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11319e2-941b-4894-82e0-c2282fd38fd7")
-		(property "Reference" "C18"
+		(property "Reference" "C22"
 			(at 80.01 81.2799 0)
 			(effects
 				(font
@@ -1589,7 +1589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 80.01 83.8199 0)
 			(effects
 				(font
@@ -1617,6 +1617,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52923 "
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -1761,6 +1770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9c152df-0436-4c60-aa2a-c92627199452")
 		)
@@ -1853,7 +1871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c59ae4ad-7f3a-4dcb-bee1-efc81aa9b68a")
-		(property "Reference" "U17"
+		(property "Reference" "U25"
 			(at 45.72 131.0649 0)
 			(effects
 				(font

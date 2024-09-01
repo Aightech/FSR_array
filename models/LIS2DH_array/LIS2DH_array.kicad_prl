@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "0000400_00000000",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -89,18 +89,6 @@
           "pos_y": 281,
           "size_x": 960,
           "size_y": 1053
-        }
-      },
-      {
-        "name": "LIS2DH_array.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 1776,
-          "pos_y": 281,
-          "size_x": 1224,
-          "size_y": 650
         }
       }
     ]
