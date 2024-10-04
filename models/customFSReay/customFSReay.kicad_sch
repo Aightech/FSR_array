@@ -4714,7 +4714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19c71273-014c-44d1-b77d-f1eb852806d5")
-		(property "Reference" "ADC"
+		(property "Reference" "ADC1"
 			(at 185.166 61.722 0)
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 		(instances
 			(project "customFSReay"
 				(path "/93a34308-6919-422a-bde6-bf7a7695593c"
-					(reference "ADC")
+					(reference "ADC1")
 					(unit 1)
 				)
 			)
