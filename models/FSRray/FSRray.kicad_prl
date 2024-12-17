@@ -81,14 +81,26 @@
     "files": [
       {
         "name": "FSRray.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 2040,
+          "pos_y": 264,
+          "size_x": 960,
+          "size_y": 1053
+        }
+      },
+      {
+        "name": "FSRray.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 1400,
-          "pos_y": 477,
-          "size_x": 1280,
-          "size_y": 543
+          "pos_x": 1560,
+          "pos_y": 264,
+          "size_x": 960,
+          "size_y": 1053
         }
       }
     ]

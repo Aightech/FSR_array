@@ -1,26 +1,6 @@
 {
   "board": {
-    "3dviewports": [
-      {
-        "name": "test",
-        "ww": 1.0,
-        "wx": -2.2768263816833496,
-        "wy": 3.7553656101226807,
-        "wz": -32.09098815917969,
-        "xw": 0.0,
-        "xx": 0.7331491708755493,
-        "xy": -0.14648404717445374,
-        "xz": 0.6641049981117249,
-        "yw": 0.0,
-        "yx": 0.6800379753112793,
-        "yy": 0.14848506450653076,
-        "yz": -0.7179853916168213,
-        "zw": 0.0,
-        "zx": 0.006563688162714243,
-        "zy": 0.9780057668685913,
-        "zz": 0.2084767073392868
-      }
-    ],
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_fields": false,
@@ -100,6 +80,7 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",

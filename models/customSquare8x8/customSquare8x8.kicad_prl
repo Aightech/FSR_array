@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffff3f_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,25 +74,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "fsr_array.kicad_prl",
+    "filename": "customSquare8x8.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "fsr_array.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 2040,
-          "pos_y": 264,
-          "size_x": 960,
-          "size_y": 1053
-        }
-      },
-      {
-        "name": "fsr_array.kicad_sch",
+        "name": "customSquare8x8.kicad_sch",
         "open": true,
         "window": {
           "display": 0,
@@ -101,6 +89,18 @@
           "pos_y": 264,
           "size_x": 960,
           "size_y": 1053
+        }
+      },
+      {
+        "name": "customSquare8x8.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 1080,
+          "pos_y": 264,
+          "size_x": 1280,
+          "size_y": 425
         }
       }
     ]
