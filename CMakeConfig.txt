@@ -1,5 +1,5 @@
 set(EXEC_NAME FSR_array)
-set(PROJECT_VERSION 8.5)
+set(PROJECT_VERSION 8.6)
 
 ###### Special libraries ######
 set(EXTRA_LIBS "")

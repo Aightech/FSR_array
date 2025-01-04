@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffdff7f_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "customSquare8x8.kicad_prl",
+    "filename": "customSquare16x16mini.kicad_prl",
     "version": 3
   },
   "project": {

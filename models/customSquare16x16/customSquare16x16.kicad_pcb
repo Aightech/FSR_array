@@ -226,7 +226,7 @@
 		)
 		(path "/72f82933-1dc4-413f-bc4e-a4865fde504e")
 		(sheetname "Root")
-		(sheetfile "customSquare8x8.kicad_sch")
+		(sheetfile "customSquare16x16.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 6.2 -1.02)
@@ -577,7 +577,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/36dbadea-7f0d-4abd-853c-4e68774d2d33")
 		(sheetname "Root")
-		(sheetfile "customSquare8x8.kicad_sch")
+		(sheetfile "customSquare16x16.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -1180,7 +1180,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/25d41515-c2d9-4a8f-9794-4ae3759080fc")
 		(sheetname "Root")
-		(sheetfile "customSquare8x8.kicad_sch")
+		(sheetfile "customSquare16x16.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -39.43)
@@ -1793,7 +1793,7 @@
 		)
 		(path "/8f0fb63d-bbf8-47d2-9678-1a8938290603")
 		(sheetname "Root")
-		(sheetfile "customSquare8x8.kicad_sch")
+		(sheetfile "customSquare16x16.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.13 1.02)
