@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC,Quantity
+FPC-05F-16PH20,"FPC1,FPC2",FPC-SMD_16P-P0.50_FPC-05F-16PH20,C2856801,2
+Conn_01x16_Pin,J1,PinSocket_1x16_P2.54mm_Vertical,,1
+Conn_01x16_Pin,J2,PinSocket_1x16_P2.54mm_Vertical,,1

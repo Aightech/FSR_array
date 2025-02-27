@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+FPC1,FPC-05F-16PH20,FPC-SMD_16P-P0.50_FPC-05F-16PH20,141.5625,-114.75,270.0,bottom
+FPC2,FPC-05F-16PH20,FPC-SMD_16P-P0.50_FPC-05F-16PH20,141.5625,-114.75,90.0,top
+J1,Conn_01x16_Pin,PinSocket_1x16_P2.54mm_Vertical,148.25,-114.75,0.0,top
+J2,Conn_01x16_Pin,PinSocket_1x16_P2.54mm_Vertical,152.25,-114.75,180.0,bottom
