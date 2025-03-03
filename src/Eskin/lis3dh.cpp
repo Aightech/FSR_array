@@ -41,7 +41,16 @@ LIS3DH::begin(SPIClass &comm, uint8_t CS_add)
     pinMode(21, OUTPUT);
     pinMode(20, OUTPUT);
 
-    _settings= SPISettings(10000000, MSBFIRST, SPI_MODE0);
+    _settings = SPISettings(10000000, MSBFIRST, SPI_MODE0);
+
+    // Serial.print("LIS3DH::begin n: ");
+    // Serial.println(CS_address);
+    // //test if available
+    // bool isAvailable = this->checkID();
+    // if(!isAvailable)
+    // {
+    //     Serial.println("LIS3DH is not available");
+    // }
 
     uint8_t config5 =
         LIS3DH_REG_TEMP_ADC_PD_ENABLED | LIS3DH_REG_TEMP_TEMP_EN_DISABLED;
@@ -197,7 +206,7 @@ LIS3DH::getAccelerationRaw(int16_t *x, int16_t *y, int16_t *z)
     *z = ((int16_t *)buf)[2];
 }
 
-void 
+void
 LIS3DH::getAccelerationRaw(uint8_t *buf)
 {
     // Read the Accelerometer
@@ -347,7 +356,7 @@ LIS3DH::readRegisterRegion(uint8_t *outputPointer, uint8_t reg, uint8_t length)
     _CS(true);
     _spi_com->transfer(
         reg | 0x80 |
-        0x40);        // Ored with "read request" bit and "auto increment" bit
+        0x40); // Ored with "read request" bit and "auto increment" bit
     //delayMicroseconds(10); // delay for at least 60us
     while(i < length) // slave may send less than requested
     {

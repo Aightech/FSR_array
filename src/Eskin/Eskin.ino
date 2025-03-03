@@ -77,11 +77,13 @@ void
 setup()
 {
     Serial.begin(115200);
-    // while(!Serial);
+    // // while(!Serial);
     fsr.begin();
+    delay(1000);
+    
+
     SPI1.begin();
 
-    delay(1000);
     // initialize LIS3DH accelerometers
     for(int i = 0; i < 16; i++)
     { // pass select_address function to LIS3DH constructor
@@ -96,7 +98,7 @@ setup()
     // timer_acc.begin(acc_callback, 1000000 / ACC_SAMPLE_RATE);
     //timer_fsr.begin(fsr_callback, 1000000 / FSR_SAMPLE_RATE);
 }
-
+ 
 void
 loop()
 {
