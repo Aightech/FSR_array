@@ -14,6 +14,13 @@ The sampling is around 400KHz/channel. So for a 16x16 FSR array, the sampling ra
 
 The project contains a C++/matlab/python code demonstrating how to communicate with the teensy 4.1 and read the FSRs values.
 
+### Submodules dependencies
+#### libraries
+- [built_lsl](lib/built_lsl/README.md)
+- [com_client](lib/com_client/README.md)
+
+
+
 # Building source code
 
 To build the project run:
@@ -33,3 +40,6 @@ to get the demonstration app usage.
 
 # Example
 Open the ![main.cpp](cpp:src/main.cpp) file to get an example how to use the lib.
+
+# Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
