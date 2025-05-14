@@ -1,0 +1,12 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+ADC1,MAX11632EEGT,MAX11632EEGT,152.4,-132.0,90.0,bottom
+C1,100n,C_0402_1005Metric,151.5,-127.8,180.0,bottom
+FPC1,FPC-05F-16PH20,FPC-SMD_16P-P0.50_FPC-05F-16PH20,154.0,-140.3125,0.0,top
+FPC2,FPC-05F-16PH20,FPC-SMD_16P-P0.50_FPC-05F-16PH20,154.0,-140.3125,0.0,bottom
+J1,Conn_01x06_Pin,PinSocket_1x06_P2.54mm_Vertical,154.85,-125.5,90.0,top
+J4,Conn_01x06_Pin,PinSocket_1x06_P2.54mm_Vertical,154.85,-122.96,90.0,top
+MUX1,CD74HC4067SM,SSOP-24_5.3x8.2mm_P0.65mm,154.0,-132.3,180.0,top
+RN1,R_Pack04,R_Array_Convex_4x0402,158.4,-134.7,90.0,bottom
+RN2,R_Pack04,R_Array_Convex_4x0402,160.8,-133.3,0.0,bottom
+RN3,R_Pack04,R_Array_Convex_4x0402,160.8,-130.7,0.0,bottom
+RN4,R_Pack04,R_Array_Convex_4x0402,158.4,-129.3,270.0,bottom

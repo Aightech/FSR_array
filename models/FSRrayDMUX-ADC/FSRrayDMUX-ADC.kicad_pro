@@ -220,7 +220,7 @@
         },
         {
           "diameter": 0.4,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -463,7 +463,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FSRray.kicad_pro",
+    "filename": "FSRrayDMUX-ADC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -609,7 +609,7 @@
   "sheets": [
     [
       "93a34308-6919-422a-bde6-bf7a7695593c",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}

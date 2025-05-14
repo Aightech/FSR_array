@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC,Quantity
+FPC-05F-16PH20,"FPC1,FPC2",FPC-SMD_16P-P0.50_FPC-05F-16PH20,C2856801,2
+Conn_01x06_Pin,J1,PinSocket_1x06_P2.54mm_Vertical,,1
+CD74HC4067SM,MUX1,SSOP-24_5.3x8.2mm_P0.65mm,,1
+Conn_01x06_Pin,J4,PinSocket_1x06_P2.54mm_Vertical,,1
+R_Pack04,RN4,R_Array_Convex_4x0402,,1
+R_Pack04,RN2,R_Array_Convex_4x0402,,1
+R_Pack04,RN1,R_Array_Convex_4x0402,,1
+100n,C1,C_0402_1005Metric,,1
+R_Pack04,RN3,R_Array_Convex_4x0402,,1
+MAX11632EEGT,ADC1,MAX11632EEGT,,1
